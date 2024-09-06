@@ -18,7 +18,7 @@ async def on_message(message):
         return
     if(message.content.startswith("$weather")):
         parts = message.content.split(" ")
-        if len(parts)>1 and len(parts)<2:
+        if len(parts)>1 and len(parts)<3:
             place = parts[1]
             await message.channel.send(weather(place))
         else:

@@ -25,7 +25,8 @@ def weather(place):
 
         diu = dayornight()
     
-        weatherdata =  f"Showing temperature for {data["location"].get("name")}, {data["location"].get("region")}, {data["location"].get("country")}\ntemprature: {temp}\ncondition: {condition}\nhumidity: {humidity}\nDiural_cycle: {diu}\nlast updated on {last_updated}"
+        weatherdata = f"Showing temperature for {data['location'].get('name')}, {data['location'].get('region')}, {data['location'].get('country')}\ntemperature: {temp}\ncondition: {condition}\nhumidity: {humidity}\nDiurnal_cycle: {diu}\nlast updated on {last_updated}"
+
         return weatherdata
 
     
