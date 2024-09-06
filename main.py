@@ -1,5 +1,6 @@
 import discord
-from getapi import weather
+from functions.getapi import weather
+from functions.jokes import jokes
 from dotenv import load_dotenv
 import os
 
@@ -17,11 +18,13 @@ async def on_message(message):
         return
     if(message.content.startswith("$weather")):
         parts = message.content.split(" ")
-        if len(parts)>1:
+        if len(parts)>1 and len(parts)<2:
             place = parts[1]
             await message.channel.send(weather(place))
         else:
-            await message.channel.send("$weather commands accept atleast one arguement ")
+            await message.channel.send("$weather commands accept just one arguement ")
+    if(message.content.startswith("$jokes")):
+       await message.channel.send(jokes())
 
 load_dotenv()
 token = os.getenv('TOKEN')
