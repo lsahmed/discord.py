@@ -4,6 +4,10 @@ from functions.jokes import jokes
 from dotenv import load_dotenv
 import os
 
+class main:
+    def __init__(num: int) -> None:
+        pass
+
 intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)

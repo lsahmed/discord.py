@@ -1,5 +1,5 @@
 import requests
-def jokes():
+def jokes() -> str:
     response = requests.get("https://v2.jokeapi.dev/joke/Any?type=single")
     data = response.json()
     status = response.status_code
