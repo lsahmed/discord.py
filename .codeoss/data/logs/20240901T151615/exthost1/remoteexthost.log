@@ -1,0 +1,575 @@
+2024-09-01 15:16:24.162 [info] Extension host with pid 1213 started
+2024-09-01 15:16:24.179 [info] Lock '/home/ardyop7/.codeoss/data/User/workspaceStorage/36433bbf/vscode.lock': Lock acquired.
+2024-09-01 15:16:24.312 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-01 15:16:24.508 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-01 15:16:24.644 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-01 15:16:24.645 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-01 15:16:25.491 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-09-01 15:16:25.960 [info] Eager extensions activated
+2024-09-01 15:16:25.961 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:16:25.961 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:16:25.962 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:16:25.963 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:16:25.964 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:16:25.964 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:16:28.341 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-01 15:16:28.637 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-01 15:16:28.637 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-01 15:28:58.073 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-09-01 15:34:06.591 [error] [ms-python.python] provider FAILED
+2024-09-01 15:34:06.615 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+    at ae (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2306827)
+    at oe (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2304787)
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/out/client/extension.js:2:2301081)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:36:33.901 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java'
+2024-09-01 15:36:33.901 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2024-09-01 15:36:33.901 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2024-09-01 15:36:35.005 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-09-01 15:36:35.069 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2024-09-01 15:36:35.705 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2024-09-01 15:36:52.015 [error] [redhat.java] provider FAILED
+2024-09-01 15:36:52.087 [error] Error: The request (id: 18, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:36:52.650 [error] [redhat.java] provider FAILED
+2024-09-01 15:36:52.651 [error] Error: The request (id: 26, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:36:52.674 [error] [redhat.java] provider FAILED
+2024-09-01 15:36:52.675 [error] Error: The request (id: 28, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:36:52.724 [error] [redhat.java] provider FAILED
+2024-09-01 15:36:52.724 [error] Error: The request (id: 31, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:36:52.750 [error] [redhat.java] provider FAILED
+2024-09-01 15:36:52.751 [error] Error: The request (id: 34, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:36:53.702 [error] onWillSaveTextDocument-listener from extension 'redhat.java' threw ERROR
+2024-09-01 15:36:53.702 [error] Error: timeout
+    at Timeout._onTimeout (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:72759)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-09-01 15:36:57.995 [error] onWillSaveTextDocument-listener from extension 'redhat.java' threw ERROR
+2024-09-01 15:36:57.996 [error] Error: timeout
+    at Timeout._onTimeout (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:72759)
+    at listOnTimeout (node:internal/timers:569:17)
+    at processTimers (node:internal/timers:512:7)
+2024-09-01 15:37:33.802 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:33.802 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:34.088 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:34.089 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:34.365 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:34.365 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:34.874 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:34.875 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:36.337 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:36.338 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:38.082 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:38.083 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:39.434 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:39.434 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:40.213 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:40.213 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:41.164 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:41.165 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:42.917 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:42.918 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:43.786 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:43.786 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:37:44.558 [error] [redhat.java] provider FAILED
+2024-09-01 15:37:44.558 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:38:02.389 [error] [redhat.java] provider FAILED
+2024-09-01 15:38:02.389 [error] Error: The request (id: 293, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:38:03.807 [error] [redhat.java] provider FAILED
+2024-09-01 15:38:03.807 [error] Error: The request (id: 309, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:38:20.879 [error] [redhat.java] provider FAILED
+2024-09-01 15:38:20.883 [error] Error: The request (id: 403, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:38:57.133 [error] [redhat.java] provider FAILED
+2024-09-01 15:38:57.134 [error] Error: The request (id: 636, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:38:57.439 [error] [redhat.java] provider FAILED
+2024-09-01 15:38:57.440 [error] Error: The request (id: 640, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:39:01.015 [error] [redhat.java] provider FAILED
+2024-09-01 15:39:01.016 [error] Error: The request (id: 663, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:39:20.395 [error] [redhat.java] provider FAILED
+2024-09-01 15:39:20.396 [error] Error: The request (id: 773, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:39:27.869 [error] [redhat.java] provider FAILED
+2024-09-01 15:39:27.870 [error] Error: The request (id: 830, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:39:31.313 [error] [redhat.java] provider FAILED
+2024-09-01 15:39:31.314 [error] Error: The request (id: 871, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:39:37.228 [error] [redhat.java] provider FAILED
+2024-09-01 15:39:37.229 [error] Error: The request (id: 918, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:39:50.197 [error] [redhat.java] provider FAILED
+2024-09-01 15:39:50.197 [error] Error: The request (id: 966, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:41:00.914 [error] [redhat.java] provider FAILED
+2024-09-01 15:41:00.915 [error] Error: The request (id: 1057, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:42:53.411 [error] [redhat.java] provider FAILED
+2024-09-01 15:42:53.411 [error] Error: The request (id: 1190, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:43:01.201 [error] [redhat.java] provider FAILED
+2024-09-01 15:43:01.202 [error] Error: The request (id: 1227, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:43:02.772 [error] [redhat.java] provider FAILED
+2024-09-01 15:43:02.773 [error] Error: The request (id: 1250, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:45:02.880 [error] [redhat.java] provider FAILED
+2024-09-01 15:45:02.881 [error] Error: The request (id: 1393, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:45:03.809 [error] [redhat.java] provider FAILED
+2024-09-01 15:45:03.810 [error] Error: The request (id: 1394, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:45:11.767 [error] [redhat.java] provider FAILED
+2024-09-01 15:45:11.767 [error] Error: The request (id: 1464, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:45:12.095 [error] [redhat.java] provider FAILED
+2024-09-01 15:45:12.096 [error] Error: The request (id: 1469, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:45:23.136 [error] [redhat.java] provider FAILED
+2024-09-01 15:45:23.136 [error] Error: The request (id: 1529, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:46:25.296 [error] [redhat.java] provider FAILED
+2024-09-01 15:46:25.296 [error] Error: The request (id: 1801, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:46:26.308 [error] [redhat.java] provider FAILED
+2024-09-01 15:46:26.308 [error] Error: The request (id: 1816, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:46:56.790 [error] [redhat.java] provider FAILED
+2024-09-01 15:46:56.791 [error] Error: The request (id: 2044, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:47:05.359 [error] [redhat.java] provider FAILED
+2024-09-01 15:47:05.360 [error] Error: The request (id: 2135, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:47:10.316 [error] [redhat.java] provider FAILED
+2024-09-01 15:47:10.317 [error] Error: The request (id: 2170, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:47:15.851 [error] [redhat.java] provider FAILED
+2024-09-01 15:47:15.851 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:47:16.486 [error] [redhat.java] provider FAILED
+2024-09-01 15:47:16.487 [error] Error: Internal error.
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:47:50.267 [error] [redhat.java] provider FAILED
+2024-09-01 15:47:50.268 [error] Error: The request (id: 2314, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:48:04.084 [error] [redhat.java] provider FAILED
+2024-09-01 15:48:04.084 [error] Error: The request (id: 2416, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:48:25.084 [error] [redhat.java] provider FAILED
+2024-09-01 15:48:25.084 [error] Error: The request (id: 2573, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:50:45.040 [error] [redhat.java] provider FAILED
+2024-09-01 15:50:45.041 [error] Error: The request (id: 2887, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:50:45.391 [error] [redhat.java] provider FAILED
+2024-09-01 15:50:45.391 [error] Error: The request (id: 2891, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:51:09.318 [error] [redhat.java] provider FAILED
+2024-09-01 15:51:09.318 [error] Error: The request (id: 2967, method: 'textDocument/hover') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:51:17.939 [error] [redhat.java] provider FAILED
+2024-09-01 15:51:17.939 [error] Error: The request (id: 3024, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:51:30.669 [error] [redhat.java] provider FAILED
+2024-09-01 15:51:30.669 [error] Error: The request (id: 3084, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 15:51:51.655 [error] [redhat.java] provider FAILED
+2024-09-01 15:51:51.655 [error] Error: The request (id: 3213, method: 'textDocument/documentSymbol') has been cancelled
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106325
+    at ie (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1106619)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101403
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/redhat.java/dist/extension.js:2:1101423)
+    at processImmediate (node:internal/timers:476:21)
+2024-09-01 16:03:42.413 [info] Extension host terminating: received terminate message from renderer
+2024-09-01 16:03:42.416 [info] Lock '/home/ardyop7/.codeoss/data/User/workspaceStorage/36433bbf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-01 16:03:42.504 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.O [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:167800)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-01 16:03:42.510 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.O [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:167800)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-01 16:03:42.518 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:25681)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:26640
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:273373)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-01 16:03:42.611 [info] Extension host with pid 1213 exiting with code 0

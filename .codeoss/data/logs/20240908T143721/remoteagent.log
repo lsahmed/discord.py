@@ -1,0 +1,17 @@
+2024-09-08 14:37:21.267 [info] 
+
+
+
+
+2024-09-08 14:37:21.323 [info] Extension host agent started.
+2024-09-08 14:37:21.554 [info] shalldie.background 1.2.13 Running post uninstall script
+2024-09-08 14:37:21.829 [error] shalldie.background 1.2.13 post-uninstall vscode background uninstalled fail: ENOENT: no such file or directory, open '/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/workbench.desktop.main.css'
+
+2024-09-08 14:37:21.837 [info] Finished running post uninstall script shalldie.background 1.2.13
+2024-09-08 14:37:21.849 [info] Deleted uninstalled extension from disk dracula-theme.theme-dracula /home/ardyop7/.codeoss/extensions/dracula-theme.theme-dracula-2.25.0-universal
+2024-09-08 14:37:21.851 [info] Deleted uninstalled extension from disk wholroyd.jinja /home/ardyop7/.codeoss/extensions/wholroyd.jinja-0.0.8-universal
+2024-09-08 14:37:21.858 [info] Deleted uninstalled extension from disk dracula-theme.theme-dracula /home/ardyop7/.codeoss/extensions/dracula-theme.theme-dracula-2.25.1-universal
+2024-09-08 14:37:21.860 [info] Deleted uninstalled extension from disk shalldie.background /home/ardyop7/.codeoss/extensions/shalldie.background-1.2.13-universal
+2024-09-08 14:37:24.733 [info] [127.0.0.1][65e96508][ManagementConnection] New connection established.
+2024-09-08 14:37:24.735 [info] [127.0.0.1][ccf6cf7c][ExtensionHostConnection] New connection established.
+2024-09-08 14:37:26.678 [info] [127.0.0.1][ccf6cf7c][ExtensionHostConnection] <1192> Launched Extension Host Process.

@@ -1,0 +1,16 @@
+import requests
+
+app_id = 'f9ab519c8864420ab3e3bf3082b5d9f9'
+response = requests.get(f"https://openexchangerates.org/api/latest.json?app_id={app_id}&base=USD")
+status = response.status_code
+data = response.json()
+
+if(status==200):
+    curr = input("Enter currency you want to exchange from USD: ")
+    howmuch = float(input("Enter quantity of dollars: "))
+    product = data["rates"].get(curr)
+    main_product = product*howmuch
+    print(main_product)
+    w2eoqdkw890dj23op0rci2edbkwjg68duo9p23wr792zjkqwvbzlo29dfu289ry902mc
+    [   1dik2
+        -u23oprhh2unx3iphd78cud80qw3rguo9q23wbdy7823]

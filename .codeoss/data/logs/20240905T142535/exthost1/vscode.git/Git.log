@@ -1,0 +1,457 @@
+2024-09-05 14:25:47.710 [info] Log level: Info
+2024-09-05 14:25:47.710 [info] Validating found git in: "git"
+2024-09-05 14:25:47.710 [info] Using git "2.34.1" from "git"
+2024-09-05 14:25:47.711 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-05 14:25:47.711 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:47.711 [info] > git rev-parse --show-toplevel [2981ms]
+2024-09-05 14:25:47.711 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:47.711 [info] > git rev-parse --show-toplevel [109ms]
+2024-09-05 14:25:47.712 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:47.737 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-05 14:25:47.737 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:47.849 [info] > git rev-parse --show-toplevel [61ms]
+2024-09-05 14:25:47.849 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:47.975 [info] > git rev-parse --show-toplevel [47ms]
+2024-09-05 14:25:48.110 [info] > git rev-parse --git-dir --git-common-dir [52ms]
+2024-09-05 14:25:48.184 [info] Open repository: /home/ardyop7/.fsociety
+2024-09-05 14:25:48.483 [info] > git rev-parse --show-toplevel [131ms]
+2024-09-05 14:25:48.483 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:48.484 [info] > git config --get commit.template [198ms]
+2024-09-05 14:25:48.612 [info] > git rev-parse --show-toplevel [51ms]
+2024-09-05 14:25:48.612 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:48.655 [info] > git rev-parse --show-toplevel [17ms]
+2024-09-05 14:25:48.655 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:48.656 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [49ms]
+2024-09-05 14:25:48.706 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-09-05 14:25:48.709 [info] > git rev-parse --show-toplevel [27ms]
+2024-09-05 14:25:48.709 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:48.738 [info] > git rev-parse refs/remotes/origin/master [31ms]
+2024-09-05 14:25:48.773 [info] > git rev-parse --show-toplevel [37ms]
+2024-09-05 14:25:48.774 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:48.824 [info] > git rev-parse --show-toplevel [23ms]
+2024-09-05 14:25:48.854 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-09-05 14:25:48.864 [info] Open repository: /home/ardyop7/discord.py
+2024-09-05 14:25:48.953 [info] > git status -z -uall [182ms]
+2024-09-05 14:25:48.954 [info] > git rev-parse --show-toplevel [35ms]
+2024-09-05 14:25:48.954 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:48.955 [info] > git config --get commit.template [62ms]
+2024-09-05 14:25:49.071 [info] > git check-ignore -v -z --stdin [125ms]
+2024-09-05 14:25:49.076 [info] > git merge-base refs/heads/master refs/remotes/origin/master [88ms]
+2024-09-05 14:25:49.131 [info] No remotes found in the git config file.
+2024-09-05 14:25:49.240 [info] > git config --get commit.template [176ms]
+2024-09-05 14:25:49.241 [info] > git rev-parse --show-toplevel [211ms]
+2024-09-05 14:25:49.241 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:49.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [141ms]
+2024-09-05 14:25:49.294 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [194ms]
+2024-09-05 14:25:49.344 [info] > git status -z -uall [51ms]
+2024-09-05 14:25:49.345 [info] > git rev-parse --show-toplevel [76ms]
+2024-09-05 14:25:49.346 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:49.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2024-09-05 14:25:49.368 [info] > git diff --name-status -z --diff-filter=ADMR b76ac01449c0bfadb1483890e6def9ec9976815d...refs/remotes/origin/master [52ms]
+2024-09-05 14:25:49.420 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-09-05 14:25:49.477 [info] > git rev-parse refs/remotes/origin/master [55ms]
+2024-09-05 14:25:49.541 [info] > git rev-parse --show-toplevel [176ms]
+2024-09-05 14:25:49.593 [info] > git status -z -uall [53ms]
+2024-09-05 14:25:49.594 [info] > git config --get commit.template [125ms]
+2024-09-05 14:25:49.747 [info] No remotes found in the git config file.
+2024-09-05 14:25:49.752 [info] > git check-ignore -v -z --stdin [99ms]
+2024-09-05 14:25:49.754 [info] > git check-ignore -v -z --stdin [41ms]
+2024-09-05 14:25:49.758 [info] > git rev-parse --git-dir --git-common-dir [166ms]
+2024-09-05 14:25:49.768 [info] Open repository: /home/ardyop7/zphisher
+2024-09-05 14:25:49.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [92ms]
+2024-09-05 14:25:50.034 [info] > git status -z -uall [160ms]
+2024-09-05 14:25:50.037 [info] > git rev-parse --show-toplevel [201ms]
+2024-09-05 14:25:50.037 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:50.041 [info] > git config --get commit.template [235ms]
+2024-09-05 14:25:50.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [228ms]
+2024-09-05 14:25:50.342 [info] > git rev-parse --show-toplevel [265ms]
+2024-09-05 14:25:50.342 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:50.371 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-09-05 14:25:50.427 [info] > git rev-parse refs/remotes/origin/master [56ms]
+2024-09-05 14:25:50.739 [info] > git rev-parse --show-toplevel [339ms]
+2024-09-05 14:25:50.739 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:50.812 [info] > git check-ignore -v -z --stdin [53ms]
+2024-09-05 14:25:50.813 [info] > git check-ignore -v -z --stdin [33ms]
+2024-09-05 14:25:50.813 [info] > git check-ignore -v -z --stdin [15ms]
+2024-09-05 14:25:51.166 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-05 14:25:51.166 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:25:51.260 [info] > git status -z -uall [809ms]
+2024-09-05 14:25:51.347 [info] > git merge-base refs/heads/master refs/remotes/origin/master [54ms]
+2024-09-05 14:25:51.422 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [44ms]
+2024-09-05 14:25:51.459 [info] > git config --get commit.template [113ms]
+2024-09-05 14:25:51.502 [info] > git diff --name-status -z --diff-filter=ADMR 615d9f89c396d8f42bd0df572689316b5e20909b...refs/remotes/origin/master [44ms]
+2024-09-05 14:25:51.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-09-05 14:25:51.557 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-09-05 14:25:51.569 [info] > git rev-parse refs/remotes/origin/master [12ms]
+2024-09-05 14:25:52.188 [info] > git status -z -uall [592ms]
+2024-09-05 14:26:43.544 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-05 14:26:43.544 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:26:51.222 [info] > git rev-parse --show-toplevel [21ms]
+2024-09-05 14:26:51.222 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-05 14:27:07.200 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-05 14:27:09.893 [info] > git show --textconv :main.py [29ms]
+2024-09-05 14:27:09.893 [info] > git ls-files --stage -- /home/ardyop7/discord.py/main.py [6ms]
+2024-09-05 14:27:09.919 [info] > git cat-file -s 633476bb790f3b6ddd51650cbefe865c2623e172 [5ms]
+2024-09-05 14:28:30.484 [info] > git show --textconv :sample.py [23ms]
+2024-09-05 14:28:30.485 [info] > git ls-files --stage -- /home/ardyop7/discord.py/sample.py [4ms]
+2024-09-05 14:28:30.505 [info] > git cat-file -s 92d5aee225a7538a17c15793a22dcb12f557ef9a [3ms]
+2024-09-05 14:28:37.821 [info] No remotes found in the git config file.
+2024-09-05 14:28:37.822 [info] > git config --get commit.template [21ms]
+2024-09-05 14:28:37.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:28:37.844 [info] > git status -z -uall [2ms]
+2024-09-05 14:28:42.388 [info] > git show --textconv :thehell.py [25ms]
+2024-09-05 14:28:42.388 [info] > git ls-files --stage -- /home/ardyop7/discord.py/thehell.py [3ms]
+2024-09-05 14:28:42.480 [info] > git check-ignore -v -z --stdin [6ms]
+2024-09-05 14:28:42.924 [info] No remotes found in the git config file.
+2024-09-05 14:28:42.948 [info] > git config --get commit.template [25ms]
+2024-09-05 14:28:42.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:28:42.974 [info] > git status -z -uall [2ms]
+2024-09-05 14:28:48.019 [info] No remotes found in the git config file.
+2024-09-05 14:28:48.020 [info] > git config --get commit.template [21ms]
+2024-09-05 14:28:48.021 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:28:48.041 [info] > git status -z -uall [2ms]
+2024-09-05 14:28:49.402 [info] > git show --textconv :app.py [44ms]
+2024-09-05 14:28:49.402 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-05 14:28:49.404 [info] > git ls-files --stage -- /home/ardyop7/discord.py/app.py [28ms]
+2024-09-05 14:28:50.385 [info] > git show --textconv :thehell.py [24ms]
+2024-09-05 14:28:50.388 [info] > git ls-files --stage -- /home/ardyop7/discord.py/thehell.py [6ms]
+2024-09-05 14:28:53.075 [info] > git config --get commit.template [2ms]
+2024-09-05 14:28:53.097 [info] No remotes found in the git config file.
+2024-09-05 14:28:53.099 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:28:53.124 [info] > git status -z -uall [3ms]
+2024-09-05 14:28:58.166 [info] No remotes found in the git config file.
+2024-09-05 14:28:58.168 [info] > git config --get commit.template [20ms]
+2024-09-05 14:28:58.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:28:58.189 [info] > git status -z -uall [3ms]
+2024-09-05 14:28:58.839 [info] > git show --textconv :app.py [26ms]
+2024-09-05 14:28:58.844 [info] > git ls-files --stage -- /home/ardyop7/discord.py/app.py [6ms]
+2024-09-05 14:29:03.240 [info] No remotes found in the git config file.
+2024-09-05 14:29:03.242 [info] > git config --get commit.template [27ms]
+2024-09-05 14:29:03.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:29:03.272 [info] > git status -z -uall [6ms]
+2024-09-05 14:29:08.324 [info] No remotes found in the git config file.
+2024-09-05 14:29:08.326 [info] > git config --get commit.template [27ms]
+2024-09-05 14:29:08.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:29:08.355 [info] > git status -z -uall [6ms]
+2024-09-05 14:29:12.166 [info] > git show --textconv :thehell.py [21ms]
+2024-09-05 14:29:12.167 [info] > git ls-files --stage -- /home/ardyop7/discord.py/thehell.py [3ms]
+2024-09-05 14:29:13.405 [info] No remotes found in the git config file.
+2024-09-05 14:29:13.407 [info] > git config --get commit.template [25ms]
+2024-09-05 14:29:13.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:29:13.433 [info] > git status -z -uall [3ms]
+2024-09-05 14:29:18.482 [info] No remotes found in the git config file.
+2024-09-05 14:29:18.483 [info] > git config --get commit.template [21ms]
+2024-09-05 14:29:18.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:29:18.509 [info] > git status -z -uall [2ms]
+2024-09-05 14:29:23.553 [info] No remotes found in the git config file.
+2024-09-05 14:29:23.555 [info] > git config --get commit.template [20ms]
+2024-09-05 14:29:23.555 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:29:23.578 [info] > git status -z -uall [3ms]
+2024-09-05 14:29:28.633 [info] No remotes found in the git config file.
+2024-09-05 14:29:28.634 [info] > git config --get commit.template [29ms]
+2024-09-05 14:29:28.637 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-05 14:29:28.666 [info] > git status -z -uall [4ms]
+2024-09-05 14:29:33.722 [info] > git config --get commit.template [2ms]
+2024-09-05 14:29:33.752 [info] No remotes found in the git config file.
+2024-09-05 14:29:33.757 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-05 14:29:33.787 [info] > git status -z -uall [5ms]
+2024-09-05 14:30:04.936 [info] No remotes found in the git config file.
+2024-09-05 14:30:04.937 [info] > git config --get commit.template [26ms]
+2024-09-05 14:30:04.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:30:04.965 [info] > git status -z -uall [2ms]
+2024-09-05 14:30:05.300 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-05 14:30:07.839 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-05 14:30:13.757 [info] > git show --textconv :app.py [39ms]
+2024-09-05 14:30:13.760 [info] > git ls-files --stage -- /home/ardyop7/discord.py/app.py [5ms]
+2024-09-05 14:30:13.960 [info] > git config --get commit.template [4ms]
+2024-09-05 14:30:13.981 [info] No remotes found in the git config file.
+2024-09-05 14:30:13.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:30:14.003 [info] > git status -z -uall [2ms]
+2024-09-05 14:30:19.291 [info] No remotes found in the git config file.
+2024-09-05 14:30:19.291 [info] > git config --get commit.template [22ms]
+2024-09-05 14:30:19.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:30:19.312 [info] > git status -z -uall [2ms]
+2024-09-05 14:30:20.318 [info] > git show --textconv :thehell.py [38ms]
+2024-09-05 14:30:20.324 [info] > git ls-files --stage -- /home/ardyop7/discord.py/thehell.py [8ms]
+2024-09-05 14:30:23.763 [info] > git show --textconv :main.py [66ms]
+2024-09-05 14:30:23.768 [info] > git ls-files --stage -- /home/ardyop7/discord.py/main.py [8ms]
+2024-09-05 14:30:23.799 [info] > git cat-file -s 633476bb790f3b6ddd51650cbefe865c2623e172 [3ms]
+2024-09-05 14:30:24.354 [info] No remotes found in the git config file.
+2024-09-05 14:30:24.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-05 14:30:24.356 [info] > git config --get commit.template [23ms]
+2024-09-05 14:30:24.377 [info] > git status -z -uall [4ms]
+2024-09-05 14:30:34.908 [info] > git config --get commit.template [3ms]
+2024-09-05 14:30:34.930 [info] No remotes found in the git config file.
+2024-09-05 14:30:34.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:30:34.959 [info] > git status -z -uall [3ms]
+2024-09-05 14:30:41.621 [info] No remotes found in the git config file.
+2024-09-05 14:30:41.623 [info] > git config --get commit.template [27ms]
+2024-09-05 14:30:41.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:30:41.649 [info] > git status -z -uall [3ms]
+2024-09-05 14:30:48.587 [info] No remotes found in the git config file.
+2024-09-05 14:30:48.589 [info] > git config --get commit.template [24ms]
+2024-09-05 14:30:48.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:30:48.615 [info] > git status -z -uall [3ms]
+2024-09-05 14:30:53.734 [info] No remotes found in the git config file.
+2024-09-05 14:30:53.737 [info] > git config --get commit.template [54ms]
+2024-09-05 14:30:53.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-09-05 14:30:53.819 [info] > git status -z -uall [34ms]
+2024-09-05 14:30:58.853 [info] > git config --get commit.template [2ms]
+2024-09-05 14:30:58.872 [info] No remotes found in the git config file.
+2024-09-05 14:30:58.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:30:58.894 [info] > git status -z -uall [3ms]
+2024-09-05 14:31:03.935 [info] No remotes found in the git config file.
+2024-09-05 14:31:03.936 [info] > git config --get commit.template [20ms]
+2024-09-05 14:31:03.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:31:03.957 [info] > git status -z -uall [3ms]
+2024-09-05 14:31:08.998 [info] No remotes found in the git config file.
+2024-09-05 14:31:09.003 [info] > git config --get commit.template [24ms]
+2024-09-05 14:31:09.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-05 14:31:09.026 [info] > git status -z -uall [3ms]
+2024-09-05 14:31:49.846 [info] > git config --get commit.template [3ms]
+2024-09-05 14:31:49.869 [info] No remotes found in the git config file.
+2024-09-05 14:31:49.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-05 14:31:49.899 [info] > git status -z -uall [3ms]
+2024-09-05 14:31:55.019 [info] No remotes found in the git config file.
+2024-09-05 14:31:55.021 [info] > git config --get commit.template [50ms]
+2024-09-05 14:31:55.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-09-05 14:31:55.064 [info] > git status -z -uall [10ms]
+2024-09-05 14:32:00.089 [info] > git config --get commit.template [2ms]
+2024-09-05 14:32:00.108 [info] No remotes found in the git config file.
+2024-09-05 14:32:00.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:32:00.131 [info] > git status -z -uall [2ms]
+2024-09-05 14:32:05.168 [info] > git config --get commit.template [13ms]
+2024-09-05 14:32:05.189 [info] No remotes found in the git config file.
+2024-09-05 14:32:05.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:32:05.213 [info] > git status -z -uall [3ms]
+2024-09-05 14:32:10.265 [info] No remotes found in the git config file.
+2024-09-05 14:32:10.267 [info] > git config --get commit.template [25ms]
+2024-09-05 14:32:10.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:32:10.294 [info] > git status -z -uall [2ms]
+2024-09-05 14:32:15.338 [info] No remotes found in the git config file.
+2024-09-05 14:32:15.340 [info] > git config --get commit.template [22ms]
+2024-09-05 14:32:15.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:32:15.364 [info] > git status -z -uall [6ms]
+2024-09-05 14:32:19.658 [info] > git show --textconv :getapi.py [29ms]
+2024-09-05 14:32:19.661 [info] > git ls-files --stage -- /home/ardyop7/discord.py/getapi.py [7ms]
+2024-09-05 14:32:19.751 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-05 14:32:20.393 [info] > git config --get commit.template [2ms]
+2024-09-05 14:32:20.418 [info] No remotes found in the git config file.
+2024-09-05 14:32:20.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:32:20.447 [info] > git status -z -uall [4ms]
+2024-09-05 14:32:28.266 [info] No remotes found in the git config file.
+2024-09-05 14:32:28.268 [info] > git config --get commit.template [27ms]
+2024-09-05 14:32:28.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-05 14:32:28.296 [info] > git status -z -uall [3ms]
+2024-09-05 14:32:36.789 [info] No remotes found in the git config file.
+2024-09-05 14:32:36.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:32:36.790 [info] > git config --get commit.template [24ms]
+2024-09-05 14:32:36.811 [info] > git status -z -uall [2ms]
+2024-09-05 14:32:41.863 [info] No remotes found in the git config file.
+2024-09-05 14:32:41.865 [info] > git config --get commit.template [26ms]
+2024-09-05 14:32:41.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:32:41.891 [info] > git status -z -uall [2ms]
+2024-09-05 14:32:49.663 [info] No remotes found in the git config file.
+2024-09-05 14:32:49.681 [info] > git config --get commit.template [19ms]
+2024-09-05 14:32:49.682 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:32:49.703 [info] > git status -z -uall [2ms]
+2024-09-05 14:32:54.732 [info] > git config --get commit.template [2ms]
+2024-09-05 14:32:54.755 [info] No remotes found in the git config file.
+2024-09-05 14:32:54.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:32:54.782 [info] > git status -z -uall [2ms]
+2024-09-05 14:32:59.824 [info] No remotes found in the git config file.
+2024-09-05 14:32:59.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:32:59.828 [info] > git config --get commit.template [23ms]
+2024-09-05 14:32:59.848 [info] > git status -z -uall [2ms]
+2024-09-05 14:33:06.780 [info] No remotes found in the git config file.
+2024-09-05 14:33:06.781 [info] > git config --get commit.template [26ms]
+2024-09-05 14:33:06.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:33:06.809 [info] > git status -z -uall [3ms]
+2024-09-05 14:33:09.679 [info] > git show --textconv :main.py [44ms]
+2024-09-05 14:33:09.684 [info] > git ls-files --stage -- /home/ardyop7/discord.py/main.py [6ms]
+2024-09-05 14:33:09.720 [info] > git cat-file -s 633476bb790f3b6ddd51650cbefe865c2623e172 [4ms]
+2024-09-05 14:33:11.852 [info] No remotes found in the git config file.
+2024-09-05 14:33:11.853 [info] > git config --get commit.template [20ms]
+2024-09-05 14:33:11.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:33:11.874 [info] > git status -z -uall [3ms]
+2024-09-05 14:33:12.335 [info] > git show --textconv :getapi.py [37ms]
+2024-09-05 14:33:12.341 [info] > git ls-files --stage -- /home/ardyop7/discord.py/getapi.py [7ms]
+2024-09-05 14:33:17.105 [info] > git config --get commit.template [3ms]
+2024-09-05 14:33:17.133 [info] No remotes found in the git config file.
+2024-09-05 14:33:17.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:33:17.161 [info] > git status -z -uall [3ms]
+2024-09-05 14:33:27.545 [info] > git show --textconv :app.py [25ms]
+2024-09-05 14:33:27.547 [info] > git ls-files --stage -- /home/ardyop7/discord.py/app.py [4ms]
+2024-09-05 14:33:28.063 [info] No remotes found in the git config file.
+2024-09-05 14:33:28.065 [info] > git config --get commit.template [40ms]
+2024-09-05 14:33:28.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-09-05 14:33:28.106 [info] > git status -z -uall [5ms]
+2024-09-05 14:33:28.286 [info] > git show --textconv :main.py [39ms]
+2024-09-05 14:33:28.292 [info] > git ls-files --stage -- /home/ardyop7/discord.py/main.py [8ms]
+2024-09-05 14:33:28.335 [info] > git cat-file -s 633476bb790f3b6ddd51650cbefe865c2623e172 [9ms]
+2024-09-05 14:33:29.091 [info] > git show --textconv :getapi.py [26ms]
+2024-09-05 14:33:29.093 [info] > git ls-files --stage -- /home/ardyop7/discord.py/getapi.py [5ms]
+2024-09-05 14:33:33.116 [info] > git show --textconv :app.py [22ms]
+2024-09-05 14:33:33.117 [info] > git ls-files --stage -- /home/ardyop7/discord.py/app.py [5ms]
+2024-09-05 14:33:33.916 [info] > git config --get commit.template [4ms]
+2024-09-05 14:33:33.934 [info] No remotes found in the git config file.
+2024-09-05 14:33:33.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:33:33.957 [info] > git status -z -uall [3ms]
+2024-09-05 14:33:39.924 [info] > git config --get commit.template [4ms]
+2024-09-05 14:33:39.948 [info] No remotes found in the git config file.
+2024-09-05 14:33:39.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:33:39.978 [info] > git status -z -uall [3ms]
+2024-09-05 14:33:45.030 [info] No remotes found in the git config file.
+2024-09-05 14:33:45.032 [info] > git config --get commit.template [25ms]
+2024-09-05 14:33:45.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:33:45.057 [info] > git status -z -uall [2ms]
+2024-09-05 14:33:50.129 [info] No remotes found in the git config file.
+2024-09-05 14:33:50.131 [info] > git config --get commit.template [36ms]
+2024-09-05 14:33:50.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-05 14:33:50.174 [info] > git status -z -uall [7ms]
+2024-09-05 14:33:54.795 [info] > git show --textconv :getapi.py [32ms]
+2024-09-05 14:33:54.811 [info] > git ls-files --stage -- /home/ardyop7/discord.py/getapi.py [17ms]
+2024-09-05 14:33:55.534 [info] > git config --get commit.template [3ms]
+2024-09-05 14:33:55.557 [info] No remotes found in the git config file.
+2024-09-05 14:33:55.559 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:33:55.584 [info] > git status -z -uall [3ms]
+2024-09-05 14:34:01.641 [info] > git config --get commit.template [6ms]
+2024-09-05 14:34:01.664 [info] No remotes found in the git config file.
+2024-09-05 14:34:01.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:34:01.691 [info] > git status -z -uall [3ms]
+2024-09-05 14:34:06.741 [info] No remotes found in the git config file.
+2024-09-05 14:34:06.743 [info] > git config --get commit.template [25ms]
+2024-09-05 14:34:06.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:34:06.768 [info] > git status -z -uall [3ms]
+2024-09-05 14:34:11.799 [info] > git config --get commit.template [4ms]
+2024-09-05 14:34:11.800 [info] No remotes found in the git config file.
+2024-09-05 14:34:11.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:34:11.841 [info] > git status -z -uall [2ms]
+2024-09-05 14:34:25.113 [info] > git show --textconv :app.py [21ms]
+2024-09-05 14:34:25.115 [info] > git ls-files --stage -- /home/ardyop7/discord.py/app.py [4ms]
+2024-09-05 14:35:31.997 [info] > git show --textconv :main.py [39ms]
+2024-09-05 14:35:32.002 [info] > git ls-files --stage -- /home/ardyop7/discord.py/main.py [9ms]
+2024-09-05 14:35:32.038 [info] > git cat-file -s 633476bb790f3b6ddd51650cbefe865c2623e172 [4ms]
+2024-09-05 14:38:05.018 [info] No remotes found in the git config file.
+2024-09-05 14:38:05.040 [info] > git config --get commit.template [22ms]
+2024-09-05 14:38:05.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-05 14:38:05.063 [info] > git status -z -uall [2ms]
+2024-09-05 14:38:10.116 [info] No remotes found in the git config file.
+2024-09-05 14:38:10.117 [info] > git config --get commit.template [26ms]
+2024-09-05 14:38:10.118 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:38:10.145 [info] > git status -z -uall [3ms]
+2024-09-05 14:38:15.199 [info] No remotes found in the git config file.
+2024-09-05 14:38:15.200 [info] > git config --get commit.template [25ms]
+2024-09-05 14:38:15.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:38:15.227 [info] > git status -z -uall [3ms]
+2024-09-05 14:38:20.251 [info] No remotes found in the git config file.
+2024-09-05 14:38:20.270 [info] > git config --get commit.template [21ms]
+2024-09-05 14:38:20.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:38:20.291 [info] > git status -z -uall [3ms]
+2024-09-05 14:38:25.345 [info] No remotes found in the git config file.
+2024-09-05 14:38:25.346 [info] > git config --get commit.template [27ms]
+2024-09-05 14:38:25.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-05 14:38:25.372 [info] > git status -z -uall [3ms]
+2024-09-05 14:38:30.422 [info] No remotes found in the git config file.
+2024-09-05 14:38:30.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:38:30.427 [info] > git config --get commit.template [29ms]
+2024-09-05 14:38:30.453 [info] > git status -z -uall [3ms]
+2024-09-05 14:38:35.479 [info] > git config --get commit.template [4ms]
+2024-09-05 14:38:35.499 [info] No remotes found in the git config file.
+2024-09-05 14:38:35.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:38:35.523 [info] > git status -z -uall [2ms]
+2024-09-05 14:38:40.552 [info] No remotes found in the git config file.
+2024-09-05 14:38:40.577 [info] > git config --get commit.template [27ms]
+2024-09-05 14:38:40.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:38:40.609 [info] > git status -z -uall [2ms]
+2024-09-05 14:38:45.661 [info] No remotes found in the git config file.
+2024-09-05 14:38:45.662 [info] > git config --get commit.template [25ms]
+2024-09-05 14:38:45.663 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:38:45.690 [info] > git status -z -uall [3ms]
+2024-09-05 14:38:50.743 [info] No remotes found in the git config file.
+2024-09-05 14:38:50.745 [info] > git config --get commit.template [26ms]
+2024-09-05 14:38:50.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:38:50.771 [info] > git status -z -uall [3ms]
+2024-09-05 14:39:00.062 [info] > git config --get commit.template [5ms]
+2024-09-05 14:39:00.087 [info] No remotes found in the git config file.
+2024-09-05 14:39:00.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-05 14:39:00.111 [info] > git status -z -uall [3ms]
+2024-09-05 14:39:05.154 [info] No remotes found in the git config file.
+2024-09-05 14:39:05.155 [info] > git config --get commit.template [21ms]
+2024-09-05 14:39:05.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:39:05.179 [info] > git status -z -uall [3ms]
+2024-09-05 14:39:11.439 [info] No remotes found in the git config file.
+2024-09-05 14:39:11.441 [info] > git config --get commit.template [29ms]
+2024-09-05 14:39:11.441 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:39:11.469 [info] > git status -z -uall [3ms]
+2024-09-05 14:39:17.220 [info] No remotes found in the git config file.
+2024-09-05 14:39:17.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-05 14:39:17.222 [info] > git config --get commit.template [28ms]
+2024-09-05 14:39:17.254 [info] > git status -z -uall [3ms]
+2024-09-05 14:39:22.301 [info] No remotes found in the git config file.
+2024-09-05 14:39:22.302 [info] > git config --get commit.template [21ms]
+2024-09-05 14:39:22.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:39:22.324 [info] > git status -z -uall [2ms]
+2024-09-05 14:39:27.396 [info] No remotes found in the git config file.
+2024-09-05 14:39:27.397 [info] > git config --get commit.template [37ms]
+2024-09-05 14:39:27.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-05 14:39:27.439 [info] > git status -z -uall [6ms]
+2024-09-05 14:39:36.885 [info] No remotes found in the git config file.
+2024-09-05 14:39:36.886 [info] > git config --get commit.template [27ms]
+2024-09-05 14:39:36.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:39:36.911 [info] > git status -z -uall [3ms]
+2024-09-05 14:39:57.091 [info] No remotes found in the git config file.
+2024-09-05 14:39:57.092 [info] > git config --get commit.template [20ms]
+2024-09-05 14:39:57.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:39:57.117 [info] > git status -z -uall [2ms]
+2024-09-05 14:40:02.141 [info] No remotes found in the git config file.
+2024-09-05 14:40:02.159 [info] > git config --get commit.template [20ms]
+2024-09-05 14:40:02.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-05 14:40:02.182 [info] > git status -z -uall [4ms]
+2024-09-05 14:40:07.235 [info] No remotes found in the git config file.
+2024-09-05 14:40:07.238 [info] > git config --get commit.template [27ms]
+2024-09-05 14:40:07.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:40:07.267 [info] > git status -z -uall [3ms]
+2024-09-05 14:40:12.311 [info] No remotes found in the git config file.
+2024-09-05 14:40:12.313 [info] > git config --get commit.template [20ms]
+2024-09-05 14:40:12.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:40:12.335 [info] > git status -z -uall [4ms]
+2024-09-05 14:40:29.499 [info] No remotes found in the git config file.
+2024-09-05 14:40:29.500 [info] > git config --get commit.template [26ms]
+2024-09-05 14:40:29.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:40:29.527 [info] > git status -z -uall [3ms]
+2024-09-05 14:40:34.570 [info] No remotes found in the git config file.
+2024-09-05 14:40:34.572 [info] > git config --get commit.template [22ms]
+2024-09-05 14:40:34.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:40:34.593 [info] > git status -z -uall [2ms]
+2024-09-05 14:40:41.619 [info] No remotes found in the git config file.
+2024-09-05 14:40:41.620 [info] > git config --get commit.template [20ms]
+2024-09-05 14:40:41.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:40:41.642 [info] > git status -z -uall [2ms]
+2024-09-05 14:40:46.698 [info] No remotes found in the git config file.
+2024-09-05 14:40:46.700 [info] > git config --get commit.template [31ms]
+2024-09-05 14:40:46.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-05 14:40:46.731 [info] > git status -z -uall [3ms]
+2024-09-05 14:40:51.774 [info] No remotes found in the git config file.
+2024-09-05 14:40:51.775 [info] > git config --get commit.template [21ms]
+2024-09-05 14:40:51.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-05 14:40:51.797 [info] > git status -z -uall [3ms]

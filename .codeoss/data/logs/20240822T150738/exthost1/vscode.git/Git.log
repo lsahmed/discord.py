@@ -1,0 +1,113 @@
+2024-08-22 15:07:57.349 [info] Log level: Info
+2024-08-22 15:07:57.349 [info] Validating found git in: "git"
+2024-08-22 15:07:57.349 [info] Using git "2.34.1" from "git"
+2024-08-22 15:07:57.349 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-22 15:07:57.349 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.349 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.349 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.349 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-22 15:07:57.349 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.349 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-22 15:07:57.349 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.352 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.352 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.385 [info] > git rev-parse --show-toplevel [26ms]
+2024-08-22 15:07:57.394 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-22 15:07:57.411 [info] Open repository: /home/ardyop7/.fsociety
+2024-08-22 15:07:57.435 [info] > git config --get commit.template [10ms]
+2024-08-22 15:07:57.436 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-22 15:07:57.436 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.452 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.452 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.460 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.461 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.468 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.468 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.476 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.476 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.484 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.484 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.492 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [48ms]
+2024-08-22 15:07:57.493 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-22 15:07:57.494 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.499 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-08-22 15:07:57.508 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.508 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.509 [info] > git rev-parse refs/remotes/origin/master [10ms]
+2024-08-22 15:07:57.535 [info] > git rev-parse --show-toplevel [9ms]
+2024-08-22 15:07:57.535 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.543 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.543 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.552 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-22 15:07:57.552 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.561 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.561 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.569 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-22 15:07:57.569 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:57.597 [info] > git rev-parse --show-toplevel [22ms]
+2024-08-22 15:07:57.606 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-08-22 15:07:57.613 [info] Open repository: /home/ardyop7/zphisher
+2024-08-22 15:07:57.623 [info] > git status -z -uall [105ms]
+2024-08-22 15:07:57.656 [info] > git merge-base refs/heads/master refs/remotes/origin/master [23ms]
+2024-08-22 15:07:57.669 [info] > git config --get commit.template [46ms]
+2024-08-22 15:07:57.697 [info] > git config --get commit.template [47ms]
+2024-08-22 15:07:57.870 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [202ms]
+2024-08-22 15:07:58.032 [info] > git diff --name-status -z --diff-filter=ADMR b76ac01449c0bfadb1483890e6def9ec9976815d...refs/remotes/origin/master [145ms]
+2024-08-22 15:07:58.036 [info] > git rev-parse --show-toplevel [315ms]
+2024-08-22 15:07:58.036 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:07:58.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [328ms]
+2024-08-22 15:07:58.046 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-08-22 15:07:58.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [121ms]
+2024-08-22 15:07:58.062 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-08-22 15:07:58.063 [info] > git rev-parse refs/remotes/origin/master [17ms]
+2024-08-22 15:07:58.077 [info] > git rev-parse refs/remotes/origin/master [15ms]
+2024-08-22 15:07:58.099 [info] > git status -z -uall [11ms]
+2024-08-22 15:07:58.567 [info] > git check-ignore -v -z --stdin [55ms]
+2024-08-22 15:07:58.569 [info] > git check-ignore -v -z --stdin [59ms]
+2024-08-22 15:08:01.135 [info] > git status -z -uall [3060ms]
+2024-08-22 15:08:01.183 [info] > git merge-base refs/heads/master refs/remotes/origin/master [30ms]
+2024-08-22 15:08:01.202 [info] > git config --get commit.template [20ms]
+2024-08-22 15:08:01.204 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [6ms]
+2024-08-22 15:08:01.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [63ms]
+2024-08-22 15:08:01.300 [info] > git diff --name-status -z --diff-filter=ADMR 615d9f89c396d8f42bd0df572689316b5e20909b...refs/remotes/origin/master [80ms]
+2024-08-22 15:08:01.356 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-08-22 15:08:01.432 [info] > git rev-parse refs/remotes/origin/master [77ms]
+2024-08-22 15:08:02.006 [info] > git status -z -uall [551ms]
+2024-08-22 15:08:02.457 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-22 15:08:02.459 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:08:02.728 [info] > git rev-parse --show-toplevel [36ms]
+2024-08-22 15:08:02.728 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:08:12.422 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-22 15:08:12.423 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:09:11.124 [warning] Failed to get repository realpath for: "/home/ardyop7/code(main)/python3/". Error: ENOENT: no such file or directory, realpath '/home/ardyop7/code(main)/python3/'
+2024-08-22 15:09:27.525 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-22 15:09:27.525 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:10:00.518 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-22 15:10:00.519 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-22 15:11:22.309 [info] > git rev-parse --show-toplevel [6ms]
+2024-08-22 15:11:22.309 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

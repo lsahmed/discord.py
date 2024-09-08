@@ -1,0 +1,15 @@
+{
+    "http.proxySupport": "off",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "redhat.telemetry.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "Google Cloud Shell",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "material-icon-theme",
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.shake.enabled": false,
+    "powermode.combo.timerEnabled": "hide"
+}

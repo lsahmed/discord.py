@@ -1,0 +1,30 @@
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: ENOENT: no such file or directory, open '/home/ardyop7/.codeoss/extensions/.980598a3-cba7-4e65-b57f-eb00c7034c81/package.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ardyop7/.codeoss/extensions/.980598a3-cba7-4e65-b57f-eb00c7034c81/package.json'
+}
+
+Node.js v18.18.2
+[Error - 2:37:21 PM] Server process exited with code 1.
+[Info  - 2:37:21 PM] Connection to server got closed. Server will restart.
+true
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+[Error: ENOENT: no such file or directory, open '/home/ardyop7/.codeoss/extensions/.962ba477-ca34-4d20-b950-d3791a690f38/package.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/ardyop7/.codeoss/extensions/.962ba477-ca34-4d20-b950-d3791a690f38/package.json'
+}
+
+Node.js v18.18.2
+[Error - 2:37:42 PM] Server process exited with code 1.
+[Info  - 2:37:42 PM] Connection to server got closed. Server will restart.
+true

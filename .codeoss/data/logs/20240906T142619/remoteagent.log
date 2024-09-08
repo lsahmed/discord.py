@@ -1,0 +1,53 @@
+2024-09-06 14:26:20.045 [info] 
+
+
+
+
+2024-09-06 14:26:20.045 [info] Extension host agent started.
+2024-09-06 14:26:26.224 [info] [127.0.0.1][415f01ae][ManagementConnection] New connection established.
+2024-09-06 14:26:26.534 [info] [127.0.0.1][68371548][ExtensionHostConnection] New connection established.
+2024-09-06 14:26:28.667 [info] [127.0.0.1][68371548][ExtensionHostConnection] <1210> Launched Extension Host Process.
+2024-09-06 14:26:35.273 [info] Getting Manifest... dracula-theme.theme-dracula
+2024-09-06 14:26:37.025 [info] Installing extension: dracula-theme.theme-dracula
+2024-09-06 14:26:42.066 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-06 14:26:42.066 [info] Extension signature verification is not done: dracula-theme.theme-dracula
+2024-09-06 14:26:42.188 [info] Extracted extension to file:///home/ardyop7/.codeoss/extensions/dracula-theme.theme-dracula-2.25.1-universal: dracula-theme.theme-dracula
+2024-09-06 14:26:42.197 [info] Renamed to /home/ardyop7/.codeoss/extensions/dracula-theme.theme-dracula-2.25.1-universal
+2024-09-06 14:26:42.206 [info] Extracting extension completed. dracula-theme.theme-dracula
+2024-09-06 14:26:42.221 [info] Extension installed successfully: dracula-theme.theme-dracula
+2024-09-06 14:26:42.232 [info] Marked extension as uninstalled dracula-theme.theme-dracula-2.25.0-universal
+2024-09-06 14:27:41.107 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-09-06 14:31:24.931 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-09-06 14:36:52.988 [info] Uninstalling extension from the profile: dracula-theme.theme-dracula@2.25.1 file:///home/ardyop7/.codeoss/extensions/extensions.json
+2024-09-06 14:36:53.013 [info] Marked extension as uninstalled dracula-theme.theme-dracula-2.25.1-universal
+2024-09-06 14:36:54.139 [info] Successfully uninstalled extension from the profile dracula-theme.theme-dracula@2.25.1 file:///home/ardyop7/.codeoss/extensions/extensions.json
+2024-09-06 14:36:55.611 [info] Uninstalling extension from the profile: shalldie.background@1.2.13 file:///home/ardyop7/.codeoss/extensions/extensions.json
+2024-09-06 14:36:55.635 [info] Marked extension as uninstalled shalldie.background-1.2.13-universal
+2024-09-06 14:36:56.313 [info] Successfully uninstalled extension from the profile shalldie.background@1.2.13 file:///home/ardyop7/.codeoss/extensions/extensions.json
+2024-09-06 14:36:57.633 [info] Uninstalling extension from the profile: wholroyd.jinja@0.0.8 file:///home/ardyop7/.codeoss/extensions/extensions.json
+2024-09-06 14:36:57.651 [info] Marked extension as uninstalled wholroyd.jinja-0.0.8-universal
+2024-09-06 14:36:58.313 [info] Successfully uninstalled extension from the profile wholroyd.jinja@0.0.8 file:///home/ardyop7/.codeoss/extensions/extensions.json
+2024-09-06 14:37:11.537 [info] Getting Manifest... hoovercj.vscode-power-mode
+2024-09-06 14:37:12.951 [info] Installing extension: hoovercj.vscode-power-mode
+2024-09-06 14:37:20.373 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-06 14:37:20.373 [info] Extension signature verification is not done: hoovercj.vscode-power-mode
+2024-09-06 14:37:20.727 [info] Extracted extension to file:///home/ardyop7/.codeoss/extensions/hoovercj.vscode-power-mode-3.0.2-universal: hoovercj.vscode-power-mode
+2024-09-06 14:37:20.735 [info] Renamed to /home/ardyop7/.codeoss/extensions/hoovercj.vscode-power-mode-3.0.2-universal
+2024-09-06 14:37:20.737 [info] Extracting extension completed. hoovercj.vscode-power-mode
+2024-09-06 14:37:20.746 [info] Extension installed successfully: hoovercj.vscode-power-mode
+2024-09-06 14:37:36.252 [info] Getting Manifest... zhuangtongfa.material-theme
+2024-09-06 14:37:37.653 [info] Installing extension: zhuangtongfa.material-theme
+2024-09-06 14:37:41.961 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-06 14:37:41.962 [info] Extension signature verification is not done: zhuangtongfa.material-theme
+2024-09-06 14:37:42.081 [info] Extracted extension to file:///home/ardyop7/.codeoss/extensions/zhuangtongfa.material-theme-3.17.2-universal: zhuangtongfa.material-theme
+2024-09-06 14:37:42.090 [info] Renamed to /home/ardyop7/.codeoss/extensions/zhuangtongfa.material-theme-3.17.2-universal
+2024-09-06 14:37:42.093 [info] Extracting extension completed. zhuangtongfa.material-theme
+2024-09-06 14:37:42.101 [info] Extension installed successfully: zhuangtongfa.material-theme
+2024-09-06 14:39:56.481 [info] [127.0.0.1][415f01ae][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-06 14:39:56.655 [info] [127.0.0.1][68371548][ExtensionHostConnection] <1210> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,106 @@
+2024-09-01 15:28:58.875 [info] Default formatter is set to null for workspace /home/ardyop7
+2024-09-01 15:28:58.876 [info] Test server listening.
+2024-09-01 15:28:58.876 [info] > conda info --json
+2024-09-01 15:28:58.876 [info] > hatch env show --json
+2024-09-01 15:28:58.876 [info] cwd: .
+2024-09-01 15:28:58.876 [info] > pyenv which python
+2024-09-01 15:28:58.876 [info] cwd: .
+2024-09-01 15:28:58.879 [info] Found: /bin/python --> /usr/bin/python3.10
+2024-09-01 15:28:58.880 [info] Found: /bin/python2 --> /bin/python2.7
+2024-09-01 15:28:58.881 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-09-01 15:28:58.883 [info] Found: /bin/python3 --> /bin/python3.10
+2024-09-01 15:28:58.884 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-09-01 15:28:58.909 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2024-09-01 15:28:58.909 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-09-01 15:28:58.909 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-09-01 15:28:58.910 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-09-01 15:28:58.911 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-09-01 15:28:58.998 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-09-01 15:28:59.032 [info] > /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-09-01 15:28:59.078 [info] > /bin/python3 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-09-01 15:28:59.101 [info] > /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-09-01 15:28:59.107 [warning] Error: Command failed: /bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:303:5) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-09-01 15:28:59.107 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-09-01 15:28:59.132 [info] > /bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-09-01 15:28:59.137 [warning] Error: Command failed: /usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python2 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+    at ChildProcess.exithandler (node:child_process:422:12)
+    at ChildProcess.emit (node:events:529:35)
+    at maybeClose (node:internal/child_process:1098:16)
+    at Socket.<anonymous> (node:internal/child_process:450:11)
+    at Socket.emit (node:events:517:28)
+    at Pipe.<anonymous> (node:net:350:12) {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python2 -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py'
+}
+2024-09-01 15:28:59.137 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-09-01 15:28:59.152 [info] > /usr/bin/python2 /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-09-01 15:28:59.237 [info] Python interpreter path: /bin/python
+2024-09-01 15:29:01.655 [info] Starting Jedi language server for ardyop7.
+2024-09-01 15:29:03.377 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:06.383 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:14.051 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:19.632 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:23.412 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:25.757 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:40.304 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:44.209 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:50.389 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:29:58.488 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:09.377 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:10.538 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:14.048 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:19.036 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:23.394 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:39.051 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:42.618 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:47.979 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:50.588 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:53.147 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:54.296 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:30:57.999 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:19.677 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:25.202 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:33.344 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:51.528 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:52.675 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:54.540 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:55.870 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:32:58.170 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:33:18.216 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:33:22.151 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:33:44.550 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:33:49.046 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:02.267 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:03.676 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:09.809 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:16.740 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:23.626 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:25.012 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:30.738 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:35.863 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:39.452 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:42.768 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:48.186 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:34:53.534 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:35:03.054 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:35:06.579 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py
+2024-09-01 15:35:21.897 [info] Discover tests for workspace name: ardyop7 - uri: /home/ardyop7/_temp.py

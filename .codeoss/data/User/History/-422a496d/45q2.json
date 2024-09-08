@@ -1,0 +1,21 @@
+{
+    "http.proxySupport": "off",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "redhat.telemetry.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "Dracula Theme",
+    "terminal.integrated.defaultProfile.linux": "Google Cloud Shell",
+    "workbench.iconTheme": "material-icon-theme",
+    "background.customImages": [
+        "https://i.pinimg.com/originals/c8/34/77/c8347714a9a622ee01c063315c2367e8.jpg"
+    ],
+    "background.fullscreen": {
+        
+        "images": [],
+        "opacity": 0.91,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    }
+}

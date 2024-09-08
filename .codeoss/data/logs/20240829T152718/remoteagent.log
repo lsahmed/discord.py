@@ -1,0 +1,22 @@
+2024-08-29 15:27:18.489 [info] 
+
+
+
+
+2024-08-29 15:27:18.526 [info] Extension host agent started.
+2024-08-29 15:27:21.635 [info] [127.0.0.1][7e57b74f][ManagementConnection] New connection established.
+2024-08-29 15:27:21.644 [info] [127.0.0.1][511e68f1][ExtensionHostConnection] New connection established.
+2024-08-29 15:27:23.681 [info] [127.0.0.1][511e68f1][ExtensionHostConnection] <1650> Launched Extension Host Process.
+2024-08-29 15:27:28.528 [info] Getting Manifest... pkief.material-icon-theme
+2024-08-29 15:27:30.477 [info] Installing extension: pkief.material-icon-theme
+2024-08-29 15:27:35.796 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-08-29 15:27:35.797 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-08-29 15:27:38.666 [info] Extracted extension to file:///home/ardyop7/.codeoss/extensions/pkief.material-icon-theme-5.10.0-universal: pkief.material-icon-theme
+2024-08-29 15:27:38.681 [info] Renamed to /home/ardyop7/.codeoss/extensions/pkief.material-icon-theme-5.10.0-universal
+2024-08-29 15:27:38.687 [info] Extracting extension completed. pkief.material-icon-theme
+2024-08-29 15:27:38.702 [info] Extension installed successfully: pkief.material-icon-theme
+2024-08-29 15:27:38.718 [info] Marked extension as uninstalled pkief.material-icon-theme-5.9.0-universal
+2024-08-29 16:04:14.802 [info] [127.0.0.1][7e57b74f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-29 16:04:15.376 [info] [127.0.0.1][511e68f1][ExtensionHostConnection] <1650> Extension Host Process exited with code: 0, signal: null.

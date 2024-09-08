@@ -1,0 +1,421 @@
+2024-09-06 14:26:31.322 [info] Extension host with pid 1210 started
+2024-09-06 14:26:31.345 [info] Lock '/home/ardyop7/.codeoss/data/User/workspaceStorage/36433bbf/vscode.lock': Lock acquired.
+2024-09-06 14:26:31.476 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-06 14:26:31.737 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-06 14:26:31.855 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-06 14:26:31.855 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-06 14:26:32.437 [info] ExtensionService#_doActivateExtension redhat.fabric8-analytics, startup: true, activationEvent: 'workspaceContains:**/package.json,**/pom.xml,**/go.mod,**/requirements.txt'
+2024-09-06 14:26:32.899 [info] Eager extensions activated
+2024-09-06 14:26:32.900 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:26:32.900 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:26:32.901 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:26:32.901 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:26:32.902 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:26:32.902 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:26:32.903 [info] ExtensionService#_doActivateExtension shalldie.background, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:26:35.725 [error] Activating extension shalldie.background failed due to an error:
+2024-09-06 14:26:35.726 [error] Error: ENOENT: no such file or directory, open '/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/workbench.desktop.main.css'
+2024-09-06 14:26:35.929 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-06 14:26:35.929 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-09-06 14:26:36.822 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-06 14:33:19.222 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:33:20.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:36:43.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:36:48.769 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:36:53.943 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:36:59.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:37:05.079 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4270
+2024-09-06 14:37:10.251 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:37:15.427 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4269
+2024-09-06 14:37:21.191 [info] ExtensionService#_doActivateExtension hoovercj.vscode-power-mode, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:37:25.461 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4306
+2024-09-06 14:37:30.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4306
+2024-09-06 14:37:35.810 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4306
+2024-09-06 14:37:41.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4307
+2024-09-06 14:37:42.709 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-09-06 14:37:46.463 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4400
+2024-09-06 14:37:51.648 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4400
+2024-09-06 14:37:56.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2024-09-06 14:38:02.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2024-09-06 14:38:07.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2024-09-06 14:38:13.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2024-09-06 14:38:18.289 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4399
+2024-09-06 14:38:23.037 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-09-06 14:38:23.908 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4400
+2024-09-06 14:38:29.143 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4407
+2024-09-06 14:38:36.311 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4407
+2024-09-06 14:38:41.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4407
+2024-09-06 14:38:46.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4408
+2024-09-06 14:38:52.106 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4407
+2024-09-06 14:38:57.312 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4407
+2024-09-06 14:39:02.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4408
+2024-09-06 14:39:07.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4408
+2024-09-06 14:39:14.696 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4410
+2024-09-06 14:39:20.712 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4410
+2024-09-06 14:39:25.911 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4410
+2024-09-06 14:39:31.097 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4410
+2024-09-06 14:39:36.279 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4410
+2024-09-06 14:39:41.559 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.567 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model18)
+2024-09-06 14:39:41.602 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model18)
+2024-09-06 14:39:41.609 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.659 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.710 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.761 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.811 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.861 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.911 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:41.962 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.013 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.064 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.113 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.164 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.215 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.266 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.316 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.366 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.417 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.467 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.517 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.567 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.617 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.668 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.717 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.768 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.819 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.869 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.920 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:42.970 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.021 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.072 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.123 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.174 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.225 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.274 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.325 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.376 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.427 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.477 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.528 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.578 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.627 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.678 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.728 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.778 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.829 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.880 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.931 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:43.980 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.031 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.081 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.131 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.182 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.233 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.284 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.334 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.384 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.434 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.485 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.536 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.586 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.636 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.687 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.736 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.786 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.836 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.887 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.938 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:44.989 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.038 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.088 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.139 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.189 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.239 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.289 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.340 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.391 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.441 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.491 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.541 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.592 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.642 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.692 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.742 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.793 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.844 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.905 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:45.955 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:46.006 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.223 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model18)
+2024-09-06 14:39:48.225 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model18)
+2024-09-06 14:39:48.240 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model18)
+2024-09-06 14:39:48.243 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model18)
+2024-09-06 14:39:48.257 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.294 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model18)
+2024-09-06 14:39:48.307 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.357 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.407 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.457 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.510 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.560 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.610 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.660 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.710 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.760 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.810 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.860 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.909 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:48.959 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.010 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.061 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.112 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.163 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.213 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.265 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.315 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.364 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.426 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.476 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.525 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.575 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.626 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.677 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.727 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.778 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.828 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.879 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.930 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:49.980 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.031 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.082 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.133 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.184 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.233 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.284 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.335 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.385 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.437 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.487 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.537 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.588 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.638 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.688 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.739 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.789 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.839 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.889 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.939 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:50.990 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.040 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.091 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.142 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.193 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.243 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.294 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.345 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.395 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.446 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.497 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.547 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.597 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.647 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.699 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.749 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.799 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.849 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.899 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:51.951 [warning] TextEditor is closed/disposed
+2024-09-06 14:39:56.486 [info] Extension host terminating: received terminate message from renderer
+2024-09-06 14:39:56.488 [info] Lock '/home/ardyop7/.codeoss/data/User/workspaceStorage/36433bbf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-09-06 14:39:56.548 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.O [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:167800)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-06 14:39:56.551 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.O [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:167800)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-06 14:39:56.558 [error] Canceled: Canceled
+    at new L (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:143:47131)
+    at c.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:5542)
+    at Proxy.F.<computed>.z.charCodeAt.F.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2993)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188926)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at k.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:187688)
+    at r.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:189465)
+    at r.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188457)
+    at r.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:188364)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:22673)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:25681)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:26640
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:273373)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:730)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:946)
+    at Object.p [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:186884)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192922
+    at Array.forEach (<anonymous>)
+    at f.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:192908)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:3955)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at h.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:170057)
+    at h.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:151:4052)
+    at a (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at f.eb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:9975)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7824
+    at Array.map (<anonymous>)
+    at f.$ (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:7811)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8085)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-09-06 14:39:56.560 [error] Canceled: Canceled
+    at Object.P [as $6] (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:10:967)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2335
+    at Array.forEach (<anonymous>)
+    at c.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:2273)
+    at f.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:159:8061)
+    at a.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+    at t (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:9922)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:176:7969)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at u.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:14175)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:17240)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:15692)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at f.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11949)
+    at a.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:107:11236)
+    at o.y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+    at o.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+    at i.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19732)
+    at i.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:19538)
+    at n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:18037)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:15257
+    at Socket.S (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:173:13162)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:335:12)
+    at readableAddChunk (node:internal/streams/readable:308:9)
+    at Socket.Readable.push (node:internal/streams/readable:245:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) python.execSelectionInTerminal {"value":"ms-python.python","_lower":"ms-python.python"}
+2024-09-06 14:39:56.591 [info] Extension host with pid 1210 exiting with code 0

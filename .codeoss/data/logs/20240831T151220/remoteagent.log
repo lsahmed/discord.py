@@ -1,0 +1,12 @@
+2024-08-31 15:12:20.930 [info] 
+
+
+
+
+2024-08-31 15:12:20.987 [info] Extension host agent started.
+2024-08-31 15:12:21.229 [info] Deleted uninstalled extension from disk pkief.material-icon-theme /home/ardyop7/.codeoss/extensions/pkief.material-icon-theme-5.9.0-universal
+2024-08-31 15:12:24.600 [info] [127.0.0.1][d382dc57][ManagementConnection] New connection established.
+2024-08-31 15:12:24.650 [info] [127.0.0.1][89c03ad3][ExtensionHostConnection] New connection established.
+2024-08-31 15:12:26.347 [info] [127.0.0.1][89c03ad3][ExtensionHostConnection] <1195> Launched Extension Host Process.
+2024-08-31 15:16:14.077 [info] [127.0.0.1][d382dc57][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-31 15:16:14.221 [info] [127.0.0.1][89c03ad3][ExtensionHostConnection] <1195> Extension Host Process exited with code: 0, signal: null.

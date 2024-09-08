@@ -1,0 +1,31 @@
+2024-09-04 14:24:58.152 [info] 
+
+
+
+
+2024-09-04 14:24:58.169 [info] Extension host agent started.
+2024-09-04 14:25:00.878 [info] [127.0.0.1][6f313d2a][ManagementConnection] New connection established.
+2024-09-04 14:25:00.949 [info] [127.0.0.1][c8f4a992][ExtensionHostConnection] New connection established.
+2024-09-04 14:25:02.874 [info] [127.0.0.1][c8f4a992][ExtensionHostConnection] <1178> Launched Extension Host Process.
+2024-09-04 14:29:40.409 [info] Getting Manifest... shalldie.background
+2024-09-04 14:29:42.073 [info] Installing extension: shalldie.background
+2024-09-04 14:29:46.374 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-04 14:29:46.374 [info] Extension signature verification is not done: shalldie.background
+2024-09-04 14:29:46.485 [info] Extracted extension to file:///home/ardyop7/.codeoss/extensions/shalldie.background-1.2.13-universal: shalldie.background
+2024-09-04 14:29:46.493 [info] Renamed to /home/ardyop7/.codeoss/extensions/shalldie.background-1.2.13-universal
+2024-09-04 14:29:46.496 [info] Extracting extension completed. shalldie.background
+2024-09-04 14:29:46.504 [info] Extension installed successfully: shalldie.background
+2024-09-04 15:06:44.543 [info] Getting Manifest... ericsia.pythonsnippets3
+2024-09-04 15:06:46.400 [info] Installing extension: ericsia.pythonsnippets3
+2024-09-04 15:06:50.295 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /google/devshell/editor/code-oss-for-cloud-shell/out/server-main.js
+2024-09-04 15:06:50.296 [info] Extension signature verification is not done: ericsia.pythonsnippets3
+2024-09-04 15:06:50.340 [info] Extracted extension to file:///home/ardyop7/.codeoss/extensions/ericsia.pythonsnippets3-3.3.18-universal: ericsia.pythonsnippets3
+2024-09-04 15:06:50.347 [info] Renamed to /home/ardyop7/.codeoss/extensions/ericsia.pythonsnippets3-3.3.18-universal
+2024-09-04 15:06:50.349 [info] Extracting extension completed. ericsia.pythonsnippets3
+2024-09-04 15:06:50.358 [info] Extension installed successfully: ericsia.pythonsnippets3
+2024-09-04 16:08:08.611 [info] [127.0.0.1][6f313d2a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-04 16:08:08.855 [info] [127.0.0.1][c8f4a992][ExtensionHostConnection] <1178> Extension Host Process exited with code: 0, signal: null.

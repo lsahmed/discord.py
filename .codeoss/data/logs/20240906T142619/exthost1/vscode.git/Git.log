@@ -1,0 +1,269 @@
+2024-09-06 14:26:32.811 [info] Log level: Info
+2024-09-06 14:26:32.811 [info] Validating found git in: "git"
+2024-09-06 14:26:32.811 [info] Using git "2.34.1" from "git"
+2024-09-06 14:26:32.811 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-06 14:26:32.811 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:32.811 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-06 14:26:32.811 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:32.811 [info] > git rev-parse --show-toplevel [343ms]
+2024-09-06 14:26:32.811 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:32.811 [info] > git rev-parse --show-toplevel [22ms]
+2024-09-06 14:26:32.811 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:32.822 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-06 14:26:32.822 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:35.636 [info] > git rev-parse --show-toplevel [2802ms]
+2024-09-06 14:26:35.727 [info] > git rev-parse --git-dir --git-common-dir [66ms]
+2024-09-06 14:26:35.746 [info] Open repository: /home/ardyop7/.fsociety
+2024-09-06 14:26:35.818 [info] > git config --get commit.template [42ms]
+2024-09-06 14:26:36.141 [info] > git rev-parse --show-toplevel [331ms]
+2024-09-06 14:26:36.141 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:36.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [288ms]
+2024-09-06 14:26:36.219 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-09-06 14:26:36.222 [info] > git rev-parse --show-toplevel [61ms]
+2024-09-06 14:26:36.223 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:36.244 [info] > git rev-parse refs/remotes/origin/master [25ms]
+2024-09-06 14:26:36.285 [info] > git rev-parse --show-toplevel [43ms]
+2024-09-06 14:26:36.286 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:36.309 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-06 14:26:36.309 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:36.385 [info] > git status -z -uall [122ms]
+2024-09-06 14:26:36.386 [info] > git rev-parse --show-toplevel [54ms]
+2024-09-06 14:26:36.386 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:36.670 [info] > git check-ignore -v -z --stdin [54ms]
+2024-09-06 14:26:36.672 [info] > git merge-base refs/heads/master refs/remotes/origin/master [141ms]
+2024-09-06 14:26:36.731 [info] > git rev-parse --show-toplevel [243ms]
+2024-09-06 14:26:36.818 [info] > git config --get commit.template [152ms]
+2024-09-06 14:26:36.911 [info] > git rev-parse --git-dir --git-common-dir [149ms]
+2024-09-06 14:26:36.919 [info] Open repository: /home/ardyop7/discord.py
+2024-09-06 14:26:36.921 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [191ms]
+2024-09-06 14:26:37.136 [info] > git rev-parse --show-toplevel [62ms]
+2024-09-06 14:26:37.139 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:37.140 [info] > git config --get commit.template [127ms]
+2024-09-06 14:26:37.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [164ms]
+2024-09-06 14:26:37.142 [info] > git diff --name-status -z --diff-filter=ADMR b76ac01449c0bfadb1483890e6def9ec9976815d...refs/remotes/origin/master [196ms]
+2024-09-06 14:26:37.252 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-09-06 14:26:37.305 [info] No remotes found in the git config file.
+2024-09-06 14:26:37.308 [info] > git rev-parse --show-toplevel [104ms]
+2024-09-06 14:26:37.309 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:37.367 [info] > git rev-parse refs/remotes/origin/master [116ms]
+2024-09-06 14:26:37.427 [info] > git rev-parse --show-toplevel [61ms]
+2024-09-06 14:26:37.427 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:37.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [130ms]
+2024-09-06 14:26:37.542 [info] > git status -z -uall [121ms]
+2024-09-06 14:26:37.543 [info] > git status -z -uall [55ms]
+2024-09-06 14:26:37.675 [info] > git rev-parse --show-toplevel [134ms]
+2024-09-06 14:26:37.890 [info] > git check-ignore -v -z --stdin [158ms]
+2024-09-06 14:26:37.894 [info] > git check-ignore -v -z --stdin [110ms]
+2024-09-06 14:26:37.895 [info] > git config --get commit.template [222ms]
+2024-09-06 14:26:37.904 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2024-09-06 14:26:37.917 [info] Open repository: /home/ardyop7/zphisher
+2024-09-06 14:26:37.966 [info] No remotes found in the git config file.
+2024-09-06 14:26:38.102 [info] > git config --get commit.template [72ms]
+2024-09-06 14:26:38.108 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [137ms]
+2024-09-06 14:26:38.162 [info] > git rev-parse --show-toplevel [85ms]
+2024-09-06 14:26:38.162 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:38.210 [info] > git status -z -uall [50ms]
+2024-09-06 14:26:38.221 [info] > git rev-parse --show-toplevel [12ms]
+2024-09-06 14:26:38.221 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:26:38.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [140ms]
+2024-09-06 14:26:38.375 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-09-06 14:26:38.381 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2024-09-06 14:26:38.917 [info] > git check-ignore -v -z --stdin [67ms]
+2024-09-06 14:26:38.919 [info] > git check-ignore -v -z --stdin [39ms]
+2024-09-06 14:26:38.923 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-06 14:26:39.978 [info] > git status -z -uall [1566ms]
+2024-09-06 14:26:40.056 [info] > git merge-base refs/heads/master refs/remotes/origin/master [46ms]
+2024-09-06 14:26:40.108 [info] > git config --get commit.template [55ms]
+2024-09-06 14:26:40.141 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [53ms]
+2024-09-06 14:26:40.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2024-09-06 14:26:40.223 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-09-06 14:26:40.228 [info] > git diff --name-status -z --diff-filter=ADMR 615d9f89c396d8f42bd0df572689316b5e20909b...refs/remotes/origin/master [55ms]
+2024-09-06 14:26:40.237 [info] > git rev-parse refs/remotes/origin/master [13ms]
+2024-09-06 14:26:40.685 [info] > git status -z -uall [420ms]
+2024-09-06 14:26:45.872 [warning] Failed to get repository realpath for: "/home/ardyop7/.codeoss/extensions/.8cd8b8a1-efa0-4b83-853d-8046d06c7833/". Error: ENOENT: no such file or directory, realpath '/home/ardyop7/.codeoss/extensions/.8cd8b8a1-efa0-4b83-853d-8046d06c7833/'
+2024-09-06 14:27:32.222 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-06 14:27:42.236 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/ardyop7/discord.py/.git/config'
+2024-09-06 14:27:42.257 [warning] ENOENT: no such file or directory, open '/home/ardyop7/discord.py/.git/HEAD'
+2024-09-06 14:27:42.310 [warning] ENOENT: no such file or directory, open '/home/ardyop7/discord.py/.git/HEAD'
+2024-09-06 14:27:42.345 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/ardyop7/discord.py/.git/config'
+2024-09-06 14:27:43.008 [info] > git check-ignore -v -z --stdin [22ms]
+2024-09-06 14:27:43.009 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-06 14:31:26.853 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/HEAD'
+2024-09-06 14:31:26.888 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/config'
+2024-09-06 14:31:26.930 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/HEAD'
+2024-09-06 14:31:26.964 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/config'
+2024-09-06 14:31:27.707 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-06 14:32:17.369 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-06 14:32:17.369 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-06 14:33:18.873 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-06 14:33:18.895 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-06 14:33:18.900 [info] Open repository: /home/ardyop7
+2024-09-06 14:33:18.941 [info] No remotes found in the git config file.
+2024-09-06 14:33:18.943 [info] > git config --get commit.template [21ms]
+2024-09-06 14:33:18.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:33:18.943 [warning] No such branch: master.
+2024-09-06 14:33:19.087 [info] > git status -z -uall [126ms]
+2024-09-06 14:33:20.213 [info] > git check-ignore -v -z --stdin [72ms]
+2024-09-06 14:33:20.224 [info] > git check-ignore -v -z --stdin [14ms]
+2024-09-06 14:33:20.226 [info] > git config --get commit.template [209ms]
+2024-09-06 14:33:20.286 [info] No remotes found in the git config file.
+2024-09-06 14:33:20.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [61ms]
+2024-09-06 14:33:20.350 [warning] No such branch: master.
+2024-09-06 14:33:20.440 [info] > git status -z -uall [65ms]
+2024-09-06 14:36:43.420 [info] > git config --get commit.template [22ms]
+2024-09-06 14:36:43.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:36:43.421 [warning] No such branch: master.
+2024-09-06 14:36:43.490 [info] > git status -z -uall [50ms]
+2024-09-06 14:36:48.649 [info] > git config --get commit.template [21ms]
+2024-09-06 14:36:48.650 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:36:48.650 [warning] No such branch: master.
+2024-09-06 14:36:48.711 [info] > git status -z -uall [41ms]
+2024-09-06 14:36:53.830 [info] > git config --get commit.template [23ms]
+2024-09-06 14:36:53.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:36:53.831 [warning] No such branch: master.
+2024-09-06 14:36:53.888 [info] > git status -z -uall [37ms]
+2024-09-06 14:36:59.804 [info] > git config --get commit.template [24ms]
+2024-09-06 14:36:59.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:36:59.805 [warning] No such branch: master.
+2024-09-06 14:36:59.864 [info] > git status -z -uall [39ms]
+2024-09-06 14:37:04.969 [info] > git config --get commit.template [23ms]
+2024-09-06 14:37:04.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:37:04.970 [warning] No such branch: master.
+2024-09-06 14:37:05.029 [info] > git status -z -uall [38ms]
+2024-09-06 14:37:10.112 [info] > git config --get commit.template [2ms]
+2024-09-06 14:37:10.136 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:37:10.136 [warning] No such branch: master.
+2024-09-06 14:37:10.199 [info] > git status -z -uall [41ms]
+2024-09-06 14:37:15.308 [info] > git config --get commit.template [25ms]
+2024-09-06 14:37:15.309 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:37:15.309 [warning] No such branch: master.
+2024-09-06 14:37:15.373 [info] > git status -z -uall [40ms]
+2024-09-06 14:37:25.218 [info] > git config --get commit.template [34ms]
+2024-09-06 14:37:25.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-06 14:37:25.221 [warning] No such branch: master.
+2024-09-06 14:37:25.320 [info] > git status -z -uall [67ms]
+2024-09-06 14:37:30.524 [info] > git config --get commit.template [25ms]
+2024-09-06 14:37:30.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:37:30.525 [warning] No such branch: master.
+2024-09-06 14:37:30.586 [info] > git status -z -uall [38ms]
+2024-09-06 14:37:35.692 [info] > git config --get commit.template [25ms]
+2024-09-06 14:37:35.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:37:35.693 [warning] No such branch: master.
+2024-09-06 14:37:35.758 [info] > git status -z -uall [43ms]
+2024-09-06 14:37:40.887 [info] > git config --get commit.template [32ms]
+2024-09-06 14:37:40.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:37:40.888 [warning] No such branch: master.
+2024-09-06 14:37:40.951 [info] > git status -z -uall [40ms]
+2024-09-06 14:37:46.149 [info] > git config --get commit.template [64ms]
+2024-09-06 14:37:46.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-09-06 14:37:46.155 [warning] No such branch: master.
+2024-09-06 14:37:46.326 [info] > git status -z -uall [97ms]
+2024-09-06 14:37:51.528 [info] > git config --get commit.template [26ms]
+2024-09-06 14:37:51.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:37:51.529 [warning] No such branch: master.
+2024-09-06 14:37:51.591 [info] > git status -z -uall [40ms]
+2024-09-06 14:37:56.707 [info] > git config --get commit.template [25ms]
+2024-09-06 14:37:56.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:37:56.708 [warning] No such branch: master.
+2024-09-06 14:37:56.773 [info] > git status -z -uall [43ms]
+2024-09-06 14:38:01.884 [info] > git config --get commit.template [24ms]
+2024-09-06 14:38:01.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:38:01.885 [warning] No such branch: master.
+2024-09-06 14:38:01.948 [info] > git status -z -uall [41ms]
+2024-09-06 14:38:07.775 [info] > git config --get commit.template [3ms]
+2024-09-06 14:38:07.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:38:07.800 [warning] No such branch: master.
+2024-09-06 14:38:07.874 [info] > git status -z -uall [49ms]
+2024-09-06 14:38:12.988 [info] > git config --get commit.template [26ms]
+2024-09-06 14:38:12.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:38:12.989 [warning] No such branch: master.
+2024-09-06 14:38:13.054 [info] > git status -z -uall [41ms]
+2024-09-06 14:38:18.166 [info] > git config --get commit.template [28ms]
+2024-09-06 14:38:18.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:38:18.167 [warning] No such branch: master.
+2024-09-06 14:38:18.231 [info] > git status -z -uall [40ms]
+2024-09-06 14:38:23.545 [info] > git check-ignore -v -z --stdin [46ms]
+2024-09-06 14:38:23.546 [info] > git config --get commit.template [4ms]
+2024-09-06 14:38:23.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [38ms]
+2024-09-06 14:38:23.612 [warning] No such branch: master.
+2024-09-06 14:38:23.740 [info] > git show --textconv :main.py [44ms]
+2024-09-06 14:38:23.747 [info] > git ls-files --stage -- /home/ardyop7/main.py [12ms]
+2024-09-06 14:38:23.815 [info] > git status -z -uall [170ms]
+2024-09-06 14:38:29.000 [info] > git config --get commit.template [39ms]
+2024-09-06 14:38:29.001 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-06 14:38:29.001 [warning] No such branch: master.
+2024-09-06 14:38:29.078 [info] > git status -z -uall [50ms]
+2024-09-06 14:38:36.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:38:36.182 [warning] No such branch: master.
+2024-09-06 14:38:36.183 [info] > git config --get commit.template [33ms]
+2024-09-06 14:38:36.249 [info] > git status -z -uall [39ms]
+2024-09-06 14:38:41.378 [info] > git config --get commit.template [31ms]
+2024-09-06 14:38:41.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:38:41.380 [warning] No such branch: master.
+2024-09-06 14:38:41.447 [info] > git status -z -uall [40ms]
+2024-09-06 14:38:46.551 [info] > git config --get commit.template [3ms]
+2024-09-06 14:38:46.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:38:46.582 [warning] No such branch: master.
+2024-09-06 14:38:46.651 [info] > git status -z -uall [42ms]
+2024-09-06 14:38:51.915 [info] > git config --get commit.template [78ms]
+2024-09-06 14:38:51.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-09-06 14:38:51.923 [warning] No such branch: master.
+2024-09-06 14:38:52.043 [info] > git status -z -uall [44ms]
+2024-09-06 14:38:57.152 [info] > git config --get commit.template [5ms]
+2024-09-06 14:38:57.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:38:57.187 [warning] No such branch: master.
+2024-09-06 14:38:57.259 [info] > git status -z -uall [42ms]
+2024-09-06 14:38:58.049 [info] > git show --textconv :main.py [35ms]
+2024-09-06 14:38:58.050 [info] > git ls-files --stage -- /home/ardyop7/main.py [3ms]
+2024-09-06 14:39:02.387 [info] > git config --get commit.template [33ms]
+2024-09-06 14:39:02.388 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:39:02.388 [warning] No such branch: master.
+2024-09-06 14:39:02.459 [info] > git status -z -uall [40ms]
+2024-09-06 14:39:07.597 [info] > git config --get commit.template [42ms]
+2024-09-06 14:39:07.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-06 14:39:07.601 [warning] No such branch: master.
+2024-09-06 14:39:07.678 [info] > git status -z -uall [42ms]
+2024-09-06 14:39:09.940 [info] > git show --textconv :main.py [37ms]
+2024-09-06 14:39:09.943 [info] > git ls-files --stage -- /home/ardyop7/main.py [5ms]
+2024-09-06 14:39:14.518 [info] > git config --get commit.template [4ms]
+2024-09-06 14:39:14.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-09-06 14:39:14.557 [warning] No such branch: master.
+2024-09-06 14:39:14.634 [info] > git status -z -uall [44ms]
+2024-09-06 14:39:20.578 [info] > git config --get commit.template [27ms]
+2024-09-06 14:39:20.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:39:20.579 [warning] No such branch: master.
+2024-09-06 14:39:20.650 [info] > git status -z -uall [48ms]
+2024-09-06 14:39:25.782 [info] > git config --get commit.template [32ms]
+2024-09-06 14:39:25.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-06 14:39:25.783 [warning] No such branch: master.
+2024-09-06 14:39:25.852 [info] > git status -z -uall [43ms]
+2024-09-06 14:39:30.974 [info] > git config --get commit.template [28ms]
+2024-09-06 14:39:30.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:39:30.975 [warning] No such branch: master.
+2024-09-06 14:39:31.040 [info] > git status -z -uall [40ms]
+2024-09-06 14:39:36.158 [info] > git config --get commit.template [26ms]
+2024-09-06 14:39:36.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-06 14:39:36.159 [warning] No such branch: master.
+2024-09-06 14:39:36.226 [info] > git status -z -uall [43ms]
+2024-09-06 14:39:38.728 [info] > git show --textconv :main.py [29ms]
+2024-09-06 14:39:38.730 [info] > git ls-files --stage -- /home/ardyop7/main.py [6ms]
+2024-09-06 14:39:46.876 [info] > git show --textconv :main.py [40ms]
+2024-09-06 14:39:46.882 [info] > git ls-files --stage -- /home/ardyop7/main.py [10ms]
+2024-09-06 14:39:52.698 [info] > git show --textconv :main.py [37ms]
+2024-09-06 14:39:52.715 [info] > git ls-files --stage -- /home/ardyop7/main.py [19ms]

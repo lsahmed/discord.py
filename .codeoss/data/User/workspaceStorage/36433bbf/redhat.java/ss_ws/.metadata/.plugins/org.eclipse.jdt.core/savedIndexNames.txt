@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+/home/ardyop7/.codeoss/data/User/workspaceStorage/36433bbf/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

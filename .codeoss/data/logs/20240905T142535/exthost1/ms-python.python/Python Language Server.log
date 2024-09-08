@@ -1,0 +1,573 @@
+2024-09-05 14:28:13.310 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+
+2024-09-05 14:28:13.519 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "6"
+
+2024-09-05 14:28:14.180 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "7"
+
+2024-09-05 14:28:16.924 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "9"
+
+2024-09-05 14:28:54.197 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "35"
+
+2024-09-05 14:28:54.199 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "36"
+
+2024-09-05 14:28:55.844 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "37"
+
+2024-09-05 14:28:55.846 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "38"
+
+2024-09-05 14:28:56.309 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "41"
+
+2024-09-05 14:28:56.310 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "39"
+
+2024-09-05 14:28:56.317 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "43"
+
+2024-09-05 14:29:06.219 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "68"
+
+2024-09-05 14:29:06.222 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "69"
+
+2024-09-05 14:29:27.095 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "131"
+
+2024-09-05 14:29:27.097 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "132"
+
+2024-09-05 14:29:27.106 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "133"
+
+2024-09-05 14:29:29.204 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "148"
+
+2024-09-05 14:29:29.227 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "150"
+
+2024-09-05 14:29:29.235 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "152"
+
+2024-09-05 14:30:30.396 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "175"
+
+2024-09-05 14:30:30.586 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "176"
+
+2024-09-05 14:30:30.588 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "177"
+
+2024-09-05 14:30:30.591 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "178"
+
+2024-09-05 14:30:30.598 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "179"
+
+2024-09-05 14:30:46.232 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "211"
+
+2024-09-05 14:30:49.426 [info] Exception in thread Thread-128:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:30:49.426 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 26
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 23
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-09-05 14:30:49.428 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:30:49.428 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2024-09-05 14:30:49.429 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+
+2024-09-05 14:30:49.429 [info]   File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-09-05 14:30:49.429 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:30:52.552 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "231"
+
+2024-09-05 14:30:52.554 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "233"
+
+2024-09-05 14:30:53.826 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "240"
+
+2024-09-05 14:30:53.829 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "241"
+
+2024-09-05 14:30:57.086 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "249"
+
+2024-09-05 14:30:57.661 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "254"
+
+2024-09-05 14:30:58.852 [info] Exception in thread Thread-162:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 26
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 23
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:31:00.187 [info] Exception in thread Thread-163:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:31:00.188 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 26
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 23
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:31:00.188 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2024-09-05 14:31:00.189 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-09-05 14:31:00.189 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:31:04.297 [info] Exception in thread Thread-173:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 26
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 23
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:31:05.636 [info] Exception in thread Thread-174:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:31:05.636 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 26
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 23
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-09-05 14:31:05.636 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:31:05.637 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-09-05 14:31:05.637 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-09-05 14:31:05.637 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:31:07.279 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "277"
+
+2024-09-05 14:31:07.541 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "278"
+
+2024-09-05 14:31:44.191 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "286"
+
+2024-09-05 14:31:51.334 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "308"
+
+2024-09-05 14:31:56.443 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "309"
+
+2024-09-05 14:31:56.445 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "310"
+
+2024-09-05 14:31:56.657 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "311"
+
+2024-09-05 14:31:56.671 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "313"
+
+2024-09-05 14:31:56.676 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "316"
+
+2024-09-05 14:31:56.880 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "315"
+
+2024-09-05 14:31:56.882 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "312"
+
+2024-09-05 14:31:57.082 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "318"
+
+2024-09-05 14:31:57.402 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "314"
+
+2024-09-05 14:31:57.418 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "319"
+
+2024-09-05 14:31:57.620 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "323"
+
+2024-09-05 14:31:57.622 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "320"
+
+2024-09-05 14:31:57.629 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "325"
+
+2024-09-05 14:31:57.631 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "322"
+
+2024-09-05 14:31:57.631 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "324"
+
+2024-09-05 14:31:57.647 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "321"
+
+2024-09-05 14:31:57.654 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "326"
+
+2024-09-05 14:31:57.656 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "327"
+
+2024-09-05 14:31:57.660 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "317"
+
+2024-09-05 14:31:57.859 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "332"
+
+2024-09-05 14:31:58.059 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "333"
+
+2024-09-05 14:31:58.065 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "330"
+
+2024-09-05 14:31:58.068 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "335"
+
+2024-09-05 14:31:58.070 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "336"
+
+2024-09-05 14:31:58.075 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "337"
+
+2024-09-05 14:32:07.951 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "368"
+
+2024-09-05 14:32:07.954 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "369"
+
+2024-09-05 14:32:09.417 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "373"
+
+2024-09-05 14:32:09.420 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "374"
+
+2024-09-05 14:32:24.047 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "387"
+
+2024-09-05 14:33:44.317 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "555"
+
+2024-09-05 14:33:44.319 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "557"
+
+2024-09-05 14:33:44.323 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "558"
+
+2024-09-05 14:33:50.336 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "581"
+
+2024-09-05 14:33:50.341 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "582"
+
+2024-09-05 14:35:32.537 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "647"
+
+2024-09-05 14:36:00.574 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "649"
+
+2024-09-05 14:36:02.997 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "652"
+
+2024-09-05 14:36:02.999 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "653"
+
+2024-09-05 14:36:29.861 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "654"
+
+2024-09-05 14:36:30.151 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "655"
+
+2024-09-05 14:37:57.393 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "688"
+
+2024-09-05 14:37:59.023 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "698"
+
+2024-09-05 14:37:59.025 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "699"
+
+2024-09-05 14:38:02.627 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "717"
+
+2024-09-05 14:38:05.979 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "729"
+
+2024-09-05 14:38:05.981 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "731"
+
+2024-09-05 14:38:11.102 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "749"
+
+2024-09-05 14:38:41.824 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "817"
+
+2024-09-05 14:38:42.507 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "820"
+
+2024-09-05 14:38:42.509 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "821"
+
+2024-09-05 14:38:43.401 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "826"
+
+2024-09-05 14:38:54.738 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "848"
+
+2024-09-05 14:38:58.668 [info] Exception in thread Thread-499:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:38:58.668 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 29
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-09-05 14:38:58.668 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:38:58.669 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-09-05 14:38:58.669 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2024-09-05 14:38:58.669 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:00.003 [info] Exception in thread Thread-500:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:39:00.004 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 29
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:39:00.004 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-09-05 14:39:00.004 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2024-09-05 14:39:00.005 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:10.031 [info] Exception in thread Thread-509:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:39:10.031 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 29
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-09-05 14:39:10.032 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:39:10.032 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2024-09-05 14:39:10.032 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-09-05 14:39:10.032 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:11.355 [info] Exception in thread Thread-510:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:39:11.355 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 29
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+
+2024-09-05 14:39:11.356 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2024-09-05 14:39:11.356 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:15.798 [info] Exception in thread Thread-511:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:39:15.799 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 29
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:39:15.799 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-09-05 14:39:15.800 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-09-05 14:39:15.800 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:17.135 [info] Exception in thread Thread-512:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:39:17.135 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 29
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-09-05 14:39:17.135 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:39:17.135 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-09-05 14:39:17.136 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2024-09-05 14:39:17.136 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:19.841 [info] Exception in thread Thread-518:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:39:19.842 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 29
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:39:19.842 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-09-05 14:39:19.843 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2024-09-05 14:39:19.843 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:22.039 [info] Exception in thread Thread-520:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-09-05 14:39:22.039 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/ardyop7/discord.py/main.py", line 30
+    load_dotenv()
+IndentationError: expected an indented block after function definition on line 24
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-09-05 14:39:22.040 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-09-05 14:39:22.040 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-09-05 14:39:22.041 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2024-09-05 14:39:22.041 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+
+2024-09-05 14:39:22.041 [info]     raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-09-05 14:39:24.990 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "912"
+
+2024-09-05 14:39:28.015 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "922"
+
+2024-09-05 14:39:28.017 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "923"
+
+2024-09-05 14:41:00.495 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1040"
+

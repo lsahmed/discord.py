@@ -1,0 +1,5 @@
+from random import randint
+
+arr = "1234567890acdefghijklmnopqrstuvwyzABCDEFGHIJKLMOPQRSTUVWXYZb!@#$%^&*()_+:"
+for i in range(0,5+1):
+    

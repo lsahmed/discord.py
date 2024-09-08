@@ -1,0 +1,12 @@
+2024-08-18 13:18:04.684 [info] 
+
+
+
+
+2024-08-18 13:18:04.710 [info] Extension host agent started.
+2024-08-18 13:18:04.853 [info] Deleted uninstalled extension from disk pkief.material-icon-theme /home/ardyop7/.codeoss/extensions/pkief.material-icon-theme-5.8.0-universal
+2024-08-18 13:18:07.682 [info] [127.0.0.1][fe20ec51][ManagementConnection] New connection established.
+2024-08-18 13:18:07.769 [info] [127.0.0.1][dd696d9a][ExtensionHostConnection] New connection established.
+2024-08-18 13:18:09.489 [info] [127.0.0.1][dd696d9a][ExtensionHostConnection] <1898> Launched Extension Host Process.
+2024-08-18 13:18:14.973 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/ardyop7/.codeoss/data/logs/20240724T151502/exthost1/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/ardyop7)
+2024-08-18 13:18:14.974 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/ardyop7/.codeoss/data/logs/20240724T151502/exthost1/vscode.github' failed: No such file or directory

@@ -1,0 +1,287 @@
+2024-08-18 13:18:13.916 [info] Log level: Info
+2024-08-18 13:18:13.916 [info] Validating found git in: "git"
+2024-08-18 13:18:13.916 [info] Using git "2.34.1" from "git"
+2024-08-18 13:18:13.916 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-18 13:18:13.916 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:13.916 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-18 13:18:13.916 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:13.916 [info] > git rev-parse --show-toplevel [1ms]
+2024-08-18 13:18:13.916 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:13.916 [info] > git rev-parse --show-toplevel [372ms]
+2024-08-18 13:18:13.916 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:13.916 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-18 13:18:13.916 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:13.925 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-18 13:18:13.938 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-08-18 13:18:13.954 [info] Open repository: /home/ardyop7/.fsociety
+2024-08-18 13:18:17.648 [info] > git rev-parse --show-toplevel [3675ms]
+2024-08-18 13:18:17.649 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:17.650 [info] > git config --get commit.template [3683ms]
+2024-08-18 13:18:17.756 [info] > git rev-parse --show-toplevel [85ms]
+2024-08-18 13:18:17.756 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:17.845 [info] > git rev-parse --show-toplevel [65ms]
+2024-08-18 13:18:17.845 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:17.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [98ms]
+2024-08-18 13:18:17.954 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-08-18 13:18:18.438 [info] > git rev-parse --show-toplevel [521ms]
+2024-08-18 13:18:18.438 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:18.538 [info] > git rev-parse refs/remotes/origin/master [584ms]
+2024-08-18 13:18:18.563 [info] > git check-ignore -v -z --stdin [100ms]
+2024-08-18 13:18:18.570 [info] > git rev-parse --show-toplevel [82ms]
+2024-08-18 13:18:18.570 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:18.634 [info] > git status -z -uall [75ms]
+2024-08-18 13:18:18.705 [info] > git merge-base refs/heads/master refs/remotes/origin/master [46ms]
+2024-08-18 13:18:18.729 [info] > git rev-parse --show-toplevel [97ms]
+2024-08-18 13:18:18.729 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:18.756 [info] > git config --get commit.template [54ms]
+2024-08-18 13:18:18.758 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [29ms]
+2024-08-18 13:18:18.945 [info] > git rev-parse --show-toplevel [190ms]
+2024-08-18 13:18:18.945 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [188ms]
+2024-08-18 13:18:19.018 [info] > git diff --name-status -z --diff-filter=ADMR b76ac01449c0bfadb1483890e6def9ec9976815d...refs/remotes/origin/master [236ms]
+2024-08-18 13:18:19.078 [warning] ENOENT: no such file or directory, open '/home/ardyop7/.fsociety/.git/refs/remotes/origin/master'
+2024-08-18 13:18:19.085 [info] > git rev-parse --show-toplevel [71ms]
+2024-08-18 13:18:19.085 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.130 [info] > git rev-parse refs/remotes/origin/master [52ms]
+2024-08-18 13:18:19.153 [info] > git rev-parse --show-toplevel [24ms]
+2024-08-18 13:18:19.153 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.183 [info] > git status -z -uall [32ms]
+2024-08-18 13:18:19.191 [info] > git rev-parse --show-toplevel [11ms]
+2024-08-18 13:18:19.191 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.216 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-18 13:18:19.216 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.240 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-18 13:18:19.240 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.267 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-18 13:18:19.267 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.386 [info] > git rev-parse --show-toplevel [97ms]
+2024-08-18 13:18:19.413 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-08-18 13:18:19.422 [info] Open repository: /home/ardyop7/zphisher
+2024-08-18 13:18:19.469 [info] > git config --get commit.template [24ms]
+2024-08-18 13:18:19.497 [info] > git rev-parse --show-toplevel [30ms]
+2024-08-18 13:18:19.497 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:19.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [75ms]
+2024-08-18 13:18:19.594 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-08-18 13:18:19.663 [info] > git rev-parse refs/remotes/origin/master [68ms]
+2024-08-18 13:18:20.256 [info] > git check-ignore -v -z --stdin [53ms]
+2024-08-18 13:18:20.259 [info] > git check-ignore -v -z --stdin [32ms]
+2024-08-18 13:18:20.566 [info] > git status -z -uall [882ms]
+2024-08-18 13:18:20.628 [info] > git merge-base refs/heads/master refs/remotes/origin/master [35ms]
+2024-08-18 13:18:20.655 [info] > git config --get commit.template [28ms]
+2024-08-18 13:18:20.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2024-08-18 13:18:20.723 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [70ms]
+2024-08-18 13:18:20.773 [warning] ENOENT: no such file or directory, open '/home/ardyop7/zphisher/.git/refs/remotes/origin/master'
+2024-08-18 13:18:20.775 [info] > git diff --name-status -z --diff-filter=ADMR 615d9f89c396d8f42bd0df572689316b5e20909b...refs/remotes/origin/master [29ms]
+2024-08-18 13:18:20.779 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2024-08-18 13:18:21.013 [info] > git status -z -uall [211ms]
+2024-08-18 13:18:42.322 [info] > git rev-parse --show-toplevel [51ms]
+2024-08-18 13:18:42.322 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:18:47.946 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-18 13:18:47.946 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:19:26.582 [info] > git rev-parse --show-toplevel [26ms]
+2024-08-18 13:19:26.599 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-08-18 13:19:26.611 [info] Open repository: /home/ardyop7/code(main)/python3
+2024-08-18 13:19:26.655 [info] > git config --get commit.template [4ms]
+2024-08-18 13:19:26.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [83ms]
+2024-08-18 13:19:26.769 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:19:26.771 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:19:26.797 [info] > git status -z -uall [10ms]
+2024-08-18 13:19:26.922 [info] > git merge-base refs/heads/main refs/remotes/origin/main [108ms]
+2024-08-18 13:19:27.134 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [187ms]
+2024-08-18 13:19:27.188 [info] > git config --get commit.template [277ms]
+2024-08-18 13:19:27.331 [info] > git diff --name-status -z --diff-filter=ADMR ee46f4eec967b167c6425d642bacf7fbac85aa8b...refs/remotes/origin/main [143ms]
+2024-08-18 13:19:27.378 [info] > git check-ignore -v -z --stdin [31ms]
+2024-08-18 13:19:27.379 [info] > git check-ignore -v -z --stdin [19ms]
+2024-08-18 13:19:27.379 [info] > git check-ignore -v -z --stdin [5ms]
+2024-08-18 13:19:27.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [54ms]
+2024-08-18 13:19:27.397 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:19:27.410 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2024-08-18 13:19:27.465 [info] > git status -z -uall [35ms]
+2024-08-18 13:19:27.465 [info] > git show --textconv :_temp_.py [18ms]
+2024-08-18 13:19:27.465 [info] > git ls-files --stage -- /home/ardyop7/code(main)/python3/_temp_.py [4ms]
+2024-08-18 13:19:39.778 [info] > git config --get commit.template [2ms]
+2024-08-18 13:19:39.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:19:39.812 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:19:39.814 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:19:39.831 [info] > git status -z -uall [3ms]
+2024-08-18 13:19:46.282 [info] > git config --get commit.template [16ms]
+2024-08-18 13:19:46.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:19:46.296 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:19:46.299 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-08-18 13:19:46.316 [info] > git status -z -uall [3ms]
+2024-08-18 13:19:51.355 [info] > git config --get commit.template [16ms]
+2024-08-18 13:19:51.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:19:51.372 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:19:51.373 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:19:51.391 [info] > git status -z -uall [2ms]
+2024-08-18 13:19:58.000 [info] > git config --get commit.template [17ms]
+2024-08-18 13:19:58.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:19:58.016 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:19:58.018 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:19:58.034 [info] > git status -z -uall [2ms]
+2024-08-18 13:20:01.401 [info] > git rev-parse --show-toplevel [24ms]
+2024-08-18 13:20:01.401 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:20:03.082 [info] > git config --get commit.template [20ms]
+2024-08-18 13:20:03.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:20:03.107 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:03.126 [info] > git rev-parse refs/remotes/origin/main [20ms]
+2024-08-18 13:20:03.187 [info] > git status -z -uall [3ms]
+2024-08-18 13:20:14.972 [info] > git show --textconv :_temp_.py [18ms]
+2024-08-18 13:20:14.973 [info] > git ls-files --stage -- /home/ardyop7/code(main)/python3/_temp_.py [4ms]
+2024-08-18 13:20:24.211 [info] > git config --get commit.template [2ms]
+2024-08-18 13:20:24.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:20:24.244 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:24.246 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:20:24.265 [info] > git status -z -uall [4ms]
+2024-08-18 13:20:29.304 [info] > git config --get commit.template [16ms]
+2024-08-18 13:20:29.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:20:29.319 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:29.320 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:20:29.336 [info] > git status -z -uall [3ms]
+2024-08-18 13:20:34.376 [info] > git config --get commit.template [16ms]
+2024-08-18 13:20:34.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:20:34.391 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:34.393 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:20:34.412 [info] > git status -z -uall [6ms]
+2024-08-18 13:20:39.451 [info] > git config --get commit.template [17ms]
+2024-08-18 13:20:39.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-08-18 13:20:39.478 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:39.483 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-08-18 13:20:39.502 [info] > git status -z -uall [3ms]
+2024-08-18 13:20:44.541 [info] > git config --get commit.template [16ms]
+2024-08-18 13:20:44.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:20:44.557 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:44.560 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-08-18 13:20:44.576 [info] > git status -z -uall [3ms]
+2024-08-18 13:20:50.015 [info] > git config --get commit.template [20ms]
+2024-08-18 13:20:50.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:20:50.030 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:50.032 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:20:50.051 [info] > git status -z -uall [3ms]
+2024-08-18 13:20:55.094 [info] > git config --get commit.template [17ms]
+2024-08-18 13:20:55.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:20:55.110 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:20:55.112 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:20:55.131 [info] > git status -z -uall [2ms]
+2024-08-18 13:21:00.159 [info] > git config --get commit.template [3ms]
+2024-08-18 13:21:00.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:21:00.193 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:21:00.196 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-08-18 13:21:00.213 [info] > git status -z -uall [3ms]
+2024-08-18 13:21:05.465 [info] > git config --get commit.template [17ms]
+2024-08-18 13:21:05.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:21:05.480 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:21:05.482 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:21:05.500 [info] > git status -z -uall [6ms]
+2024-08-18 13:21:10.540 [info] > git config --get commit.template [17ms]
+2024-08-18 13:21:10.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:21:10.555 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:21:10.557 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:21:10.575 [info] > git status -z -uall [4ms]
+2024-08-18 13:21:15.604 [info] > git config --get commit.template [4ms]
+2024-08-18 13:21:15.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:21:15.637 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:21:15.638 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:21:15.654 [info] > git status -z -uall [2ms]
+2024-08-18 13:21:20.679 [info] > git config --get commit.template [3ms]
+2024-08-18 13:21:20.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:21:20.714 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:21:20.716 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:21:20.734 [info] > git status -z -uall [3ms]
+2024-08-18 13:21:25.774 [info] > git config --get commit.template [18ms]
+2024-08-18 13:21:25.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:21:25.790 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:21:25.792 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:21:25.807 [info] > git status -z -uall [2ms]
+2024-08-18 13:21:30.850 [info] > git config --get commit.template [17ms]
+2024-08-18 13:21:30.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:21:30.866 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:21:30.867 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:21:30.888 [info] > git status -z -uall [6ms]
+2024-08-18 13:22:12.299 [info] > git config --get commit.template [4ms]
+2024-08-18 13:22:12.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:22:12.330 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:22:12.332 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:22:12.348 [info] > git status -z -uall [2ms]
+2024-08-18 13:22:17.388 [info] > git config --get commit.template [17ms]
+2024-08-18 13:22:17.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:22:17.404 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:22:17.405 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:22:17.428 [info] > git status -z -uall [4ms]
+2024-08-18 13:22:46.604 [info] > git config --get commit.template [2ms]
+2024-08-18 13:22:46.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:22:46.635 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:22:46.636 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:22:46.654 [info] > git status -z -uall [2ms]
+2024-08-18 13:22:57.591 [info] > git config --get commit.template [1ms]
+2024-08-18 13:22:57.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:22:57.626 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:22:57.627 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:22:57.644 [info] > git status -z -uall [3ms]
+2024-08-18 13:23:02.683 [info] > git config --get commit.template [17ms]
+2024-08-18 13:23:02.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:23:02.700 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:23:02.701 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:23:02.719 [info] > git status -z -uall [2ms]
+2024-08-18 13:23:11.056 [info] > git config --get commit.template [3ms]
+2024-08-18 13:23:11.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:23:11.091 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:23:11.092 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:23:11.109 [info] > git status -z -uall [3ms]
+2024-08-18 13:23:33.419 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-18 13:23:33.419 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-08-18 13:23:34.906 [info] > git show --textconv :_temp_.py [17ms]
+2024-08-18 13:23:34.908 [info] > git ls-files --stage -- /home/ardyop7/code(main)/python3/_temp_.py [3ms]
+2024-08-18 13:46:27.222 [info] > git config --get commit.template [18ms]
+2024-08-18 13:46:27.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-18 13:46:27.238 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:46:27.242 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-08-18 13:46:27.259 [info] > git status -z -uall [3ms]
+2024-08-18 13:46:32.299 [info] > git config --get commit.template [17ms]
+2024-08-18 13:46:32.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-18 13:46:32.317 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:46:32.319 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:46:32.336 [info] > git status -z -uall [3ms]
+2024-08-18 13:46:37.378 [info] > git config --get commit.template [18ms]
+2024-08-18 13:46:37.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:46:37.394 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:46:37.396 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:46:37.414 [info] > git status -z -uall [3ms]
+2024-08-18 13:46:42.455 [info] > git config --get commit.template [17ms]
+2024-08-18 13:46:42.457 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:46:42.471 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:46:42.473 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:46:42.489 [info] > git status -z -uall [3ms]
+2024-08-18 13:47:18.834 [info] > git config --get commit.template [21ms]
+2024-08-18 13:47:18.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:47:18.852 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:47:18.854 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-08-18 13:47:18.873 [info] > git status -z -uall [2ms]
+2024-08-18 13:47:23.917 [info] > git config --get commit.template [18ms]
+2024-08-18 13:47:23.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-08-18 13:47:23.935 [warning] ENOENT: no such file or directory, open '/home/ardyop7/code(main)/python3/.git/refs/remotes/origin/main'
+2024-08-18 13:47:23.937 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-08-18 13:47:23.955 [info] > git status -z -uall [2ms]
