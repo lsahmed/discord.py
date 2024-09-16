@@ -3,9 +3,9 @@ from functions.getapi import weather
 from functions.jokes import jokes
 from dotenv import load_dotenv
 import os
-# from keepalive import keep_alive
+from keepalive import keep_alive
 # running the keep_alive() func to return a webpage with url.
-# keep_alive()
+keep_alive()
 
 intents = discord.Intents.default()
 intents.message_content = True
