@@ -14,21 +14,19 @@ skills = db['skills']
 projects = db['projects']
 project = list(projects.find())
 
-# filter = {"_id":ObjectId('6728db4ef3d95aeafa9efd38')}
-# update = {
-#     "$set": {
-#         "img1": "https://shorturl.at/kOzYZ"
-#     }
-# }
-# result = projects.update_one(filter ,update)
+filter = {"_id":ObjectId('672790caff384ce856517e51')}
+update = {
+    "$set": {
+        "git": "https://github.com/lsahmed/contrail"
+    }
+}
+result = projects.update_one(filter ,update)
 
 
-# if result.modified_count > 0:
-#     print(f'Document with ID  updated successfully.')
-# else:
-#     print(f'No document found with ID  or no changes made.')
-
-print(project)
+if result.modified_count > 0:
+    print(f'Document with ID  updated successfully.')
+else:
+    print(f'No document found with ID  or no changes made.')
 
 
 
